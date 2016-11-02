@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PipApp</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="btnConnectPip">Press to Connect to Pip</string>
+    <string name="textConnectedToPip">I\'m Connected to the Pip!</string>
+    <string name="btnDiscoverPip">Press to Discover Pip</string>
+    <string name="tvDiscoveredPip" />
+</resources>
