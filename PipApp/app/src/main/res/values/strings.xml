@@ -7,4 +7,6 @@
     <string name="textConnectedToPip">I\'m Connected to the Pip!</string>
     <string name="btnDiscoverPip">Press to Discover Pip</string>
     <string name="tvDiscoveredPip" />
+    <string name="TextViewStatus">tvStatus</string>
+    <string name="tvStatus" />
 </resources>

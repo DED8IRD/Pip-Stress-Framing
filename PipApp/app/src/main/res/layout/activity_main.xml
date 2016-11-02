@@ -18,21 +18,32 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:id="@+id/tvConnectedToPip"
-        android:layout_centerHorizontal="true" />
+        android:layout_above="@+id/btnConnectPip"
+        android:layout_centerHorizontal="true"
+        android:singleLine="false" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/btnDiscoverPip"
         android:id="@+id/btnDiscoverPip"
+        android:layout_below="@+id/tvDiscoveredPip"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="67dp" />
+        android:layout_marginTop="63dp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/tvDiscoveredPip"
         android:id="@+id/tvDiscoveredPip"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/tvStatus"
+        android:id="@+id/tvStatus"
+        android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

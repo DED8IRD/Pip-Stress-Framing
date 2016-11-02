@@ -11,22 +11,23 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-// PIP-specific imports
 import com.galvanic.pipsdk.PIP.Pip;
 import com.galvanic.pipsdk.PIP.PipAnalyzerListener;
 import com.galvanic.pipsdk.PIP.PipAnalyzerOutput;
 import com.galvanic.pipsdk.PIP.PipConnectionListener;
-import com.galvanic.pipsdk.PIP.PipControlListener;
+import com.galvanic.pipsdk.PIP.PipInfo;
 import com.galvanic.pipsdk.PIP.PipManager;
 import com.galvanic.pipsdk.PIP.PipManagerListener;
 import com.galvanic.pipsdk.PIP.PipStandardAnalyzer;
 
 import java.util.ArrayList;
 
+// PIP-specific imports
+
 
 public class MainActivity
         extends Activity
-        implements PipManagerListener, PipConnectionListener,PipControlListener,
+        implements PipManagerListener, PipConnectionListener,
         PipAnalyzerListener
 {
 
@@ -36,7 +37,7 @@ public class MainActivity
     //Only discovering one PIP in this app.
     private boolean pipDiscovered = false;
 
-    private TextView tvConnectedToPip, tvDiscoveredPip;
+    private TextView tvConnectedToPip, tvDiscoveredPip, tvStatus;
     private Button btnConnectPip, btnDiscoverPip;
 
 
@@ -45,6 +46,7 @@ public class MainActivity
         //TextView initialiations
         tvConnectedToPip = (TextView) findViewById(R.id.tvConnectedToPip);
         tvDiscoveredPip = (TextView) findViewById(R.id.tvDiscoveredPip);
+        tvStatus = (TextView) findViewById(R.id.tvStatus);
 
         //Button initializations
         btnConnectPip = (Button) findViewById(R.id.btnConnectPip);
@@ -119,6 +121,83 @@ public class MainActivity
 
     //PipManagerListener interface implementation
 
+
+    public void connectPip()
+    {
+        // We stop discovery after the first PIP has been found, so
+        // the list of discovered PIPs will contain a single entry at index zero.
+        Pip pip = pipManager.getPip(pipManager.getDiscoveryAtIndex(0).pipID);
+        // Register listeners for connection and data analysis events.
+        pip.setPipAnalyzerListener(this);
+        pip.setPipConnectionListener(this);
+        // Connect to the PIP.
+        pip.connect();
+    }
+
+    //*************************************************
+    //* PipManagerListener interface implementation
+    //*************************************************
+
+    // Once this event is raised, the PipManager object is initialized
+    // and ready for use by the application.
+    @Override
+    public void onPipManagerReady()
+    {
+        tvStatus.setText("Ready.");
+    }
+
+    // This event is raised when a PIP has been discovered. For simplicity
+    // in the current app, we terminate discovery after a single PIP has been
+    // found, but in general, the discovery process continues until all
+    // PIPs in range have been found.
+    @Override
+    public void onPipDiscovered()
+    {
+        // We have found our first PIP - terminate discovery.
+        pipManager.cancelDiscovery();
+
+        String statusMsg = "Discovered PIP: ";
+        PipInfo info = pipManager.getDiscoveryAtIndex(0);
+        if ( info != null )
+        {
+            if ( info.name != null && info.name.length() != 0 )
+                statusMsg = statusMsg.concat(info.name);
+            else
+                statusMsg.concat("Unknown PIP");
+        }
+
+        tvStatus.setText(statusMsg);
+        pipDiscovered = true;
+        btnDiscoverPip.setEnabled(true);
+        btnConnectPip.setEnabled(true);
+    }
+
+
+    // onPipDiscoveryComplete is fired when a discovery process ends.
+    // In this case, check whether or not at least one PIP was found -
+    // if not, then display an appropriate message.
+    @Override
+    public void onPipDiscoveryComplete(int numDiscovered)
+    {
+        if ( !pipDiscovered )
+            tvStatus.setText("Discovery complete.");
+
+        btnDiscoverPip.setEnabled(true);
+    }
+
+    // onPipsResumed will be called when the application resumes
+    // from the suspended state. The SDK automatically attempts to
+    // re-connect to any PIPs that were connected prior to the app
+    // suspending.
+    @Override
+    public void onPipsResumed(int status)
+    {
+    }
+
+    //*************************************************
+    //* PipConnectionListener interface implementation
+    //*************************************************
+
     // This event is raised when a connection attempt to a PIP
     // completes.
     @Override
@@ -131,8 +210,8 @@ public class MainActivity
                 Pip pip = pipManager.getPip(pipID);
                 if (pip != null)
                     pip.startStreaming();
-                textViewStatus.setText("Connected.");
-                buttonDisconnect.setEnabled(true);
+                tvStatus.setText("Connected.");
+                btnDiscoverPip.setEnabled(true);
                 break;
             }
             case Pip.PIP_CS_PAIRING_FAILED:
@@ -154,9 +233,9 @@ public class MainActivity
             // Intentional fall-through
             default:
             {
-                textViewStatus.setText("Connect failed.");
-                buttonConnect.setEnabled(true);
-                buttonDiscover.setEnabled(true);
+                tvStatus.setText("Connect failed.");
+                btnConnectPip.setEnabled(true);
+                btnDiscoverPip.setEnabled(true);
                 break;
             }
         }
@@ -166,10 +245,10 @@ public class MainActivity
     @Override
     public void onPipDisconnected(int status, int pipId)
     {
-        textViewStatus.setText("Disconnected.");
-        buttonConnect.setEnabled(true);
-        buttonDiscover.setEnabled(true);
-        buttonDisconnect.setEnabled(false);
+        tvStatus.setText("Disconnected.");
+        btnConnectPip.setEnabled(true);
+        btnDiscoverPip.setEnabled(true);
+        //buttonDisconnect.setEnabled(false);
     }
 
     //*************************************************
@@ -195,24 +274,25 @@ public class MainActivity
             switch ( currentTrendEvent )
             {
                 case PipAnalyzerListener.STRESS_TREND_RELAXING:
-                    textViewStatus.setText("Trend: Relaxing");
+                    tvStatus.setText("Trend: Relaxing");
                     break;
                 case PipAnalyzerListener.STRESS_TREND_STRESSING:
-                    textViewStatus.setText("Trend: Stressing");
+                    tvStatus.setText("Trend: Stressing");
                     break;
                 case PipAnalyzerListener.STRESS_TREND_CONSTANT:
-                    textViewStatus.setText("Trend: Constant");
+                    tvStatus.setText("Trend: Constant");
                     break;
                 case PipAnalyzerListener.STRESS_TREND_NONE:
-                    textViewStatus.setText("Trend: None");
+                    tvStatus.setText("Trend: None");
                     break;
             }
         }
         else
         {
             // The PIP is in the streaming state, but is not being held.
-            textViewStatus.setText("Streaming: Inactive");
+            tvStatus.setText("Streaming: Inactive");
         }
     }
+
 
 }
