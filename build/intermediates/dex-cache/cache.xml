@@ -2,18 +2,58 @@
 <items version="2" >
 
     <item
-        jar="/Users/alonpek/Desktop/PIPSDK/Android/examples/PIPSDKExample/PIPSDKExample/libs/pipsdk.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\DED8IRD\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.0\support-annotations-23.0.0.jar"
+        jumboMode="true"
+        optimize="true"
         revision="22.0.1"
-        sha1="320dce64be7e8a7dee8be2c1d92cc8fdf28a5082">
-        <dex dex="/Users/alonpek/Desktop/PIPSDK/Android/examples/PIPSDKExample/PIPSDKExample/build/intermediates/pre-dexed/debug/pipsdk-94569aba36ae6de95829a2b31817ce33bd4ef0fa.jar" />
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="C:\Users\DED8IRD\Documents\School\PIP lab\Pip app\Pip-Stress-Framing\PIPSDKExample\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.0.0_3837e15a5af6f44416690973ecc68898beeca5c2\classes.dex" />
     </item>
     <item
-        jar="/Users/alonpek/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\DED8IRD\Documents\School\PIP lab\Pip app\Pip-Stress-Framing\PIPSDKExample\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="true"
+        optimize="true"
         revision="22.0.1"
-        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
-        <dex dex="/Users/alonpek/Desktop/PIPSDK/Android/examples/PIPSDKExample/PIPSDKExample/build/intermediates/pre-dexed/debug/support-v4-19.1.0-fad453909028a54dcab5e87a4953b25fd91e89b5.jar" />
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="C:\Users\DED8IRD\Documents\School\PIP lab\Pip app\Pip-Stress-Framing\PIPSDKExample\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.0.0_62009a039186e5fdadd165943764cffc195c2183\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DED8IRD\Documents\School\PIP lab\Pip app\Pip-Stress-Framing\PIPSDKExample\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="e7b215fc027efc21c5f584c89c78ff36422ab579">
+        <dex dex="C:\Users\DED8IRD\Documents\School\PIP lab\Pip app\Pip-Stress-Framing\PIPSDKExample\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_5366ebc29765ca2fd15c4dd1c8caa161100035b4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DED8IRD\Documents\School\PIP lab\Pip app\Pip-Stress-Framing\PIPSDKExample\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="C:\Users\DED8IRD\Documents\School\PIP lab\Pip app\Pip-Stress-Framing\PIPSDKExample\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.0.0_88e4ab2cb8643258205396611a0a808c5b3320a1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DED8IRD\Documents\School\PIP lab\Pip app\Pip-Stress-Framing\PIPSDKExample\libs\pipsdk.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="320dce64be7e8a7dee8be2c1d92cc8fdf28a5082">
+        <dex dex="C:\Users\DED8IRD\Documents\School\PIP lab\Pip app\Pip-Stress-Framing\PIPSDKExample\build\intermediates\transforms\dex\debug\folders\1000\2\pipsdk_c48a49677adb8ba19a96de5ddd9a901e49422722\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DED8IRD\Documents\School\PIP lab\Pip app\Pip-Stress-Framing\PIPSDKExample\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="c6cd42f03f605927f68a741a33b350415abc59f3">
+        <dex dex="C:\Users\DED8IRD\Documents\School\PIP lab\Pip app\Pip-Stress-Framing\PIPSDKExample\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_93492d4da1e2c8a6a3f5ca864c094ab08eb016e0\classes.dex" />
     </item>
 
 </items>

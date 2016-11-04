@@ -1,56 +1,34 @@
-/* Copyright (c) 2014 Galvanic Ltd.
- * All rights reserved.
- *
- * This software is the confidential and proprietary information of Galvanic Limited.
- *
- * 
- * THIS SOFTWARE IS PROVIDED BY THE AUTHOR "AS IS" AND ANY EXPRESS OR 
- * IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES 
- * OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY AND FITNESS FOR A PARTICULAR 
- * PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL GALVANIC LIMITED BE LIABLE FOR ANY 
- * DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES 
- * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; 
- * LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED 
- * AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR 
- * TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE 
- * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
- * 
+/*
+ * PipApp modified from Galvanic's PIPSDKExample
  */
 
-/* PIPSDKExample is a bare-bones application illustrating how to
- * integrate PIP functionality into a Java native application. In order
- * to focus on the PIP-specific code, UI has been pared back to the minimum.
- * Also, only the core PIP concepts of discovering, connecting to and streaming
- * from a PIP device are covered. The application allows the user to
- * discover a single PIP, connect to it and start streaming, in order to
- * receive events about the user's state of stress/relaxation.
- */
 package com.galvanic.pipsdk.PIPSDKExample;
 
+import java.io.*;
 import android.app.Activity;
-import android.app.AlertDialog;
-import android.content.DialogInterface;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
-
-import com.galvanic.pipsdk.PIP.Pip;
-import com.galvanic.pipsdk.PIP.PipAnalyzerListener;
-import com.galvanic.pipsdk.PIP.PipAnalyzerOutput;
-import com.galvanic.pipsdk.PIP.PipConnectionListener;
-import com.galvanic.pipsdk.PIP.PipInfo;
-import com.galvanic.pipsdk.PIP.PipManager;
-import com.galvanic.pipsdk.PIP.PipManagerListener;
-import com.galvanic.pipsdk.PIP.PipStandardAnalyzer;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 
 import java.util.ArrayList;
 
-
-
-
-
+import com.galvanic.pipsdk.PIP.PipInfo;
+// PIP-specific imports
+import com.galvanic.pipsdk.PIP.PipManager;
+import com.galvanic.pipsdk.PIP.Pip;
+import com.galvanic.pipsdk.PIP.PipAnalyzerOutput;
+import com.galvanic.pipsdk.PIP.PipStandardAnalyzer;
+import com.galvanic.pipsdk.PIP.PipConnectionListener;
+import com.galvanic.pipsdk.PIP.PipManagerListener;
+import com.galvanic.pipsdk.PIP.PipAnalyzerListener;
+// Visual imports
+import android.graphics.Color;
 // PIP-specific imports
 
 /* The application's user interface must inherit and implement the
@@ -75,12 +53,10 @@ public class PIPSDKExampleActivity
     TextView tvRaw = null;
     TextView tvPrevious = null;
     ImageView ivStatus = null;
+	TextView dynamicColorBlock = null;
 
     double currentRawValue;
     double accumulated;
-
-
-
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) 
@@ -93,6 +69,7 @@ public class PIPSDKExampleActivity
         tvRaw = (TextView) findViewById(R.id.tvRaw);
         tvPrevious = (TextView) findViewById(R.id.tvPrevious);
 		buttonDiscover.setEnabled(true);
+		dynamicColorBlock = (TextView)findViewById(R.id.dynamic_color_block);
 
         //ivStatus = (ImageView) findViewById(R.id.ivStatus);
 
@@ -314,15 +291,17 @@ public class PIPSDKExampleActivity
 			{
 				case PipAnalyzerListener.STRESS_TREND_RELAXING:
 					textViewStatus.setText("Trend: Relaxing");
+					dynamicColorBlock.setBackgroundColor(Color.BLUE);
 
                     break;
 				case PipAnalyzerListener.STRESS_TREND_STRESSING:
 					textViewStatus.setText("Trend: Stressing");
-
+					dynamicColorBlock.setBackgroundColor(Color.YELLOW);
 
                     break;
 				case PipAnalyzerListener.STRESS_TREND_CONSTANT:
 					textViewStatus.setText("Trend: Constant");
+					dynamicColorBlock.setBackgroundColor(Color.GRAY);
 
                     break;
 				case PipAnalyzerListener.STRESS_TREND_NONE:
