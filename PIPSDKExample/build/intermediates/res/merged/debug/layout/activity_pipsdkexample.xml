@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".PIPSDKExampleActivity">
+
+
+    <TextView
+        android:text=""
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/dynamic_color_block"
+        android:layout_below="@+id/Status"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="54dp" />
+
+    <Button
+        android:id="@+id/Discover"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="Discover" />
+
+    <Button
+        android:id="@+id/Connect"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Discover"
+        android:text="Connect" />
+
+    <Button
+        android:id="@+id/Disconnect"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Connect"
+        android:text="Disconnect" />
+
+    <TextView
+        android:id="@+id/Status"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Disconnect"
+        android:layout_below="@+id/Disconnect"
+        android:layout_marginTop="30dp"
+        android:text="Ready." />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvRaw"
+        android:id="@+id/tvRaw"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="81dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Raw Skin Conductance"
+        android:id="@+id/textView"
+        android:layout_above="@+id/tvRaw"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvPrevious"
+        android:id="@+id/tvPrevious"
+        android:layout_above="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="39dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvAccumulateInfo"
+        android:id="@+id/textView2"
+        android:layout_above="@+id/tvPrevious"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

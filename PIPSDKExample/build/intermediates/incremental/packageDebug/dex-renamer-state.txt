@@ -1,0 +1,7 @@
+#Thu Nov 03 21:46:01 PDT 2016
+base.0=C\:\\Users\\DED8IRD\\Documents\\School\\PIP lab\\Pip app\\Pip-Stress-Framing\\PIPSDKExample\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_5366ebc29765ca2fd15c4dd1c8caa161100035b4
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\DED8IRD\\Documents\\School\\PIP lab\\Pip app\\Pip-Stress-Framing\\PIPSDKExample\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_93492d4da1e2c8a6a3f5ca864c094ab08eb016e0\\classes.dex
+base.1=C\:\\Users\\DED8IRD\\Documents\\School\\PIP lab\\Pip app\\Pip-Stress-Framing\\PIPSDKExample\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_93492d4da1e2c8a6a3f5ca864c094ab08eb016e0
+file.0=C\:\\Users\\DED8IRD\\Documents\\School\\PIP lab\\Pip app\\Pip-Stress-Framing\\PIPSDKExample\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_5366ebc29765ca2fd15c4dd1c8caa161100035b4\\classes.dex

@@ -1,0 +1,70 @@
+[
+    {
+        "outputFile": "C:\\Users\\DED8IRD\\Documents\\School\\PIP lab\\Pip app\\Pip-Stress-Framing\\PIPSDKExample\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 4,
+                    "endColumn": 12,
+                    "endOffset": 187
+                },
+                "from": {
+                    "file": "C:\\Users\\DED8IRD\\Documents\\School\\PIP lab\\Pip app\\Pip-Stress-Framing\\PIPSDKExample\\src\\main\\res\\values-v11\\styles.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 177,
+                        "endLine": 8,
+                        "endColumn": 12,
+                        "endOffset": 309
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 192,
+                    "endLine": 7,
+                    "endColumn": 12,
+                    "endOffset": 351
+                },
+                "from": {
+                    "file": "C:\\Users\\DED8IRD\\Documents\\School\\PIP lab\\Pip app\\Pip-Stress-Framing\\PIPSDKExample\\src\\main\\res\\values-v11\\styles.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 762,
+                        "endLine": 20,
+                        "endColumn": 12,
+                        "endOffset": 921
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 356,
+                    "endLine": 14,
+                    "endColumn": 12,
+                    "endOffset": 797
+                },
+                "from": {
+                    "file": "C:\\Users\\DED8IRD\\Documents\\School\\PIP lab\\Pip app\\Pip-Stress-Framing\\PIPSDKExample\\src\\main\\res\\values-v11\\styles.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 315,
+                        "endLine": 16,
+                        "endColumn": 12,
+                        "endOffset": 756
+                    }
+                }
+            }
+        ]
+    }
+]
