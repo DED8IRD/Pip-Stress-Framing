@@ -33,7 +33,7 @@ import android.graphics.Color;
  * interfaces in order to handle events relating to PIP discovery, 
  * connection status and streaming/data analysis respectively.
  */
-public class PIPSDKExampleActivity 
+public class PipAppMainActivity
 	extends Activity 
 	implements PipManagerListener, PipConnectionListener, PipAnalyzerListener   
 {
