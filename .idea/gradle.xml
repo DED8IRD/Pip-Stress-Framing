@@ -8,7 +8,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/PIPSDKExample" />
+            <option value="$PROJECT_DIR$/PipApp" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

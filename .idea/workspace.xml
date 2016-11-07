@@ -5,76 +5,11 @@
       <config />
     </shared>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4435a4d-e8ca-403c-b5c8-73008ca6b177" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIPSDKExample/build/intermediates/classes/androidTest/debug/com/galvanic/pipsdk/PIPSDKExample/test/BuildConfig.class" afterPath="$PROJECT_DIR$/PIPSDKExample/build/intermediates/classes/androidTest/debug/com/galvanic/pipsdk/PIPSDKExample/test/BuildConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIPSDKExample/build/intermediates/classes/debug/com/galvanic/pipsdk/PIPSDKExample/BuildConfig.class" afterPath="$PROJECT_DIR$/PIPSDKExample/build/intermediates/classes/debug/com/galvanic/pipsdk/PIPSDKExample/BuildConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIPSDKExample/build/intermediates/classes/debug/com/galvanic/pipsdk/PIPSDKExample/PIPSDKExampleActivity$1.class" afterPath="$PROJECT_DIR$/PIPSDKExample/build/intermediates/classes/debug/com/galvanic/pipsdk/PIPSDKExample/PIPSDKExampleActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIPSDKExample/build/intermediates/classes/debug/com/galvanic/pipsdk/PIPSDKExample/PIPSDKExampleActivity$2.class" afterPath="$PROJECT_DIR$/PIPSDKExample/build/intermediates/classes/debug/com/galvanic/pipsdk/PIPSDKExample/PIPSDKExampleActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIPSDKExample/build/intermediates/classes/debug/com/galvanic/pipsdk/PIPSDKExample/PIPSDKExampleActivity$3.class" afterPath="$PROJECT_DIR$/PIPSDKExample/build/intermediates/classes/debug/com/galvanic/pipsdk/PIPSDKExample/PIPSDKExampleActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIPSDKExample/build/intermediates/classes/debug/com/galvanic/pipsdk/PIPSDKExample/PIPSDKExampleActivity$4.class" afterPath="$PROJECT_DIR$/PIPSDKExample/build/intermediates/classes/debug/com/galvanic/pipsdk/PIPSDKExample/PIPSDKExampleActivity$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIPSDKExample/build/intermediates/classes/debug/com/galvanic/pipsdk/PIPSDKExample/PIPSDKExampleActivity.class" afterPath="$PROJECT_DIR$/PIPSDKExample/build/intermediates/classes/debug/com/galvanic/pipsdk/PIPSDKExample/PIPSDKExampleActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIPSDKExample/build/intermediates/classes/debug/com/galvanic/pipsdk/PIPSDKExample/R$attr.class" afterPath="$PROJECT_DIR$/PIPSDKExample/build/intermediates/classes/debug/com/galvanic/pipsdk/PIPSDKExample/R$attr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIPSDKExample/build/intermediates/classes/debug/com/galvanic/pipsdk/PIPSDKExample/R$dimen.class" afterPath="$PROJECT_DIR$/PIPSDKExample/build/intermediates/classes/debug/com/galvanic/pipsdk/PIPSDKExample/R$dimen.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIPSDKExample/build/intermediates/classes/debug/com/galvanic/pipsdk/PIPSDKExample/R$drawable.class" afterPath="$PROJECT_DIR$/PIPSDKExample/build/intermediates/classes/debug/com/galvanic/pipsdk/PIPSDKExample/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIPSDKExample/build/intermediates/classes/debug/com/galvanic/pipsdk/PIPSDKExample/R$id.class" afterPath="$PROJECT_DIR$/PIPSDKExample/build/intermediates/classes/debug/com/galvanic/pipsdk/PIPSDKExample/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIPSDKExample/build/intermediates/classes/debug/com/galvanic/pipsdk/PIPSDKExample/R$layout.class" afterPath="$PROJECT_DIR$/PIPSDKExample/build/intermediates/classes/debug/com/galvanic/pipsdk/PIPSDKExample/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIPSDKExample/build/intermediates/classes/debug/com/galvanic/pipsdk/PIPSDKExample/R$menu.class" afterPath="$PROJECT_DIR$/PIPSDKExample/build/intermediates/classes/debug/com/galvanic/pipsdk/PIPSDKExample/R$menu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIPSDKExample/build/intermediates/classes/debug/com/galvanic/pipsdk/PIPSDKExample/R$string.class" afterPath="$PROJECT_DIR$/PIPSDKExample/build/intermediates/classes/debug/com/galvanic/pipsdk/PIPSDKExample/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIPSDKExample/build/intermediates/classes/debug/com/galvanic/pipsdk/PIPSDKExample/R$style.class" afterPath="$PROJECT_DIR$/PIPSDKExample/build/intermediates/classes/debug/com/galvanic/pipsdk/PIPSDKExample/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIPSDKExample/build/intermediates/classes/debug/com/galvanic/pipsdk/PIPSDKExample/R.class" afterPath="$PROJECT_DIR$/PIPSDKExample/build/intermediates/classes/debug/com/galvanic/pipsdk/PIPSDKExample/R.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIPSDKExample/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/annotations.zip" afterPath="$PROJECT_DIR$/PIPSDKExample/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/annotations.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIPSDKExample/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/classes.jar" afterPath="$PROJECT_DIR$/PIPSDKExample/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/classes.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIPSDKExample/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/libs/internal_impl-23.0.0.jar" afterPath="$PROJECT_DIR$/PIPSDKExample/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/libs/internal_impl-23.0.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIPSDKExample/build/outputs/apk/PIPSDKExample-debug.apk" afterPath="$PROJECT_DIR$/PIPSDKExample/build/outputs/apk/PIPSDKExample-debug.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIPSDKExample/libs/pipsdk.jar" afterPath="$PROJECT_DIR$/PIPSDKExample/libs/pipsdk.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIPSDKExample/src/main/res/drawable-mdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/PIPSDKExample/src/main/res/drawable-mdpi/ic_launcher.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIPSDKExample/src/main/res/drawable-xhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/PIPSDKExample/src/main/res/drawable-xhdpi/ic_launcher.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIPSDKExample/src/main/res/drawable-xxhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/PIPSDKExample/src/main/res/drawable-xxhdpi/ic_launcher.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/pipsdk.xml" afterPath="$PROJECT_DIR$/.idea/libraries/pipsdk.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_annotations_23_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_annotations_23_0_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_23_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_23_0_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIPSDKExample/build.gradle" afterPath="$PROJECT_DIR$/PIPSDKExample/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIPSDKExample/build/generated/source/buildConfig/androidTest/debug/com/galvanic/pipsdk/PIPSDKExample/test/BuildConfig.java" afterPath="$PROJECT_DIR$/PIPSDKExample/build/generated/source/buildConfig/androidTest/debug/com/galvanic/pipsdk/PIPSDKExample/test/BuildConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIPSDKExample/build/generated/source/buildConfig/debug/com/galvanic/pipsdk/PIPSDKExample/BuildConfig.java" afterPath="$PROJECT_DIR$/PIPSDKExample/build/generated/source/buildConfig/debug/com/galvanic/pipsdk/PIPSDKExample/BuildConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIPSDKExample/build/generated/source/r/debug/com/galvanic/pipsdk/PIPSDKExample/R.java" afterPath="$PROJECT_DIR$/PIPSDKExample/build/generated/source/r/debug/com/galvanic/pipsdk/PIPSDKExample/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIPSDKExample/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/AndroidManifest.xml" afterPath="$PROJECT_DIR$/PIPSDKExample/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIPSDKExample/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/aapt/AndroidManifest.xml" afterPath="$PROJECT_DIR$/PIPSDKExample/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/aapt/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIPSDKExample/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/aidl/android/support/v4/media/MediaMetadataCompat.aidl" afterPath="$PROJECT_DIR$/PIPSDKExample/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/aidl/android/support/v4/media/MediaMetadataCompat.aidl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIPSDKExample/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/aidl/android/support/v4/media/RatingCompat.aidl" afterPath="$PROJECT_DIR$/PIPSDKExample/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/aidl/android/support/v4/media/RatingCompat.aidl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIPSDKExample/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/aidl/android/support/v4/media/session/MediaSessionCompat.aidl" afterPath="$PROJECT_DIR$/PIPSDKExample/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/aidl/android/support/v4/media/session/MediaSessionCompat.aidl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIPSDKExample/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/aidl/android/support/v4/media/session/ParcelableVolumeInfo.aidl" afterPath="$PROJECT_DIR$/PIPSDKExample/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/aidl/android/support/v4/media/session/ParcelableVolumeInfo.aidl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIPSDKExample/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/aidl/android/support/v4/media/session/PlaybackStateCompat.aidl" afterPath="$PROJECT_DIR$/PIPSDKExample/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/aidl/android/support/v4/media/session/PlaybackStateCompat.aidl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIPSDKExample/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/PIPSDKExample/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIPSDKExample/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/PIPSDKExample/build/intermediates/symbols/debug/R.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIPSDKExample/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/PIPSDKExample/build/outputs/logs/manifest-merger-debug-report.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIPSDKExample/lint.xml" afterPath="$PROJECT_DIR$/PIPSDKExample/lint.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIPSDKExample/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/PIPSDKExample/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIPSDKExample/src/main/java/com/galvanic/pipsdk/PIPSDKExample/PIPSDKExampleActivity.java" afterPath="$PROJECT_DIR$/PIPSDKExample/src/main/java/com/galvanic/pipsdk/PIPSDKExample/PIPSDKExampleActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIPSDKExample/src/main/res/layout/activity_pipsdkexample.xml" afterPath="$PROJECT_DIR$/PIPSDKExample/src/main/res/layout/activity_pipsdkexample.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIPSDKExample/src/main/res/menu/pipsdkexample.xml" afterPath="$PROJECT_DIR$/PIPSDKExample/src/main/res/menu/pipsdkexample.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIPSDKExample/src/main/res/values-sw600dp/dimens.xml" afterPath="$PROJECT_DIR$/PIPSDKExample/src/main/res/values-sw600dp/dimens.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIPSDKExample/src/main/res/values-sw720dp-land/dimens.xml" afterPath="$PROJECT_DIR$/PIPSDKExample/src/main/res/values-sw720dp-land/dimens.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIPSDKExample/src/main/res/values-v11/styles.xml" afterPath="$PROJECT_DIR$/PIPSDKExample/src/main/res/values-v11/styles.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIPSDKExample/src/main/res/values-v14/styles.xml" afterPath="$PROJECT_DIR$/PIPSDKExample/src/main/res/values-v14/styles.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIPSDKExample/src/main/res/values/dimens.xml" afterPath="$PROJECT_DIR$/PIPSDKExample/src/main/res/values/dimens.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIPSDKExample/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/PIPSDKExample/src/main/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PIPSDKExample/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/PIPSDKExample/src/main/res/values/styles.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradlew" afterPath="$PROJECT_DIR$/gradlew" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradlew.bat" afterPath="$PROJECT_DIR$/gradlew.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
-    </list>
+    <list default="true" id="5cf8289d-a5a5-45ad-a412-e65975351355" name="Default" comment="" />
     <ignored path="Pip-Stress-Framing.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -94,61 +29,48 @@
       <ProjectState />
     </projectState>
   </component>
-  <component name="ExternalProjectsManager">
-    <system id="GRADLE">
-      <state>
-        <projects_view />
-      </state>
-    </system>
-  </component>
   <component name="FavoritesManager">
     <favorites_list name="Pip-Stress-Framing" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+    <leaf>
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PIPSDKExample/src/main/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/PipApp/src/main/AndroidManifest.xml">
           <provider editor-type-id="android-manifest">
             <state />
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PIPSDKExampleActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PIPSDKExample/src/main/java/com/galvanic/pipsdk/PIPSDKExample/PIPSDKExampleActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="283" column="70" selection-start-line="283" selection-start-column="70" selection-end-line="283" selection-end-column="70" />
-              <folding>
-                <element signature="e#0#9917#0" expanded="true" />
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_pipsdkexample.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PIPSDKExample/src/main/res/layout/activity_pipsdkexample.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="350">
-              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+              <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="android-designer2">
+        </entry>
+      </file>
+      <file leaf-file-name="PIPSDKExampleActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PipApp/src/main/java/com/galvanic/pipsdk/PipApp/PIPSDKExampleActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_pipsdkexample.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PipApp/src/main/res/layout/activity_pipsdkexample.xml">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="android-designer2">
             <state />
           </provider>
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="availableProjects">
@@ -163,8 +85,8 @@
           <value>
             <list>
               <ExternalProjectPojo>
-                <option name="name" value=":PIPSDKExample" />
-                <option name="path" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="name" value=":PipApp" />
+                <option name="path" value="$PROJECT_DIR$/PipApp" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
                 <option name="name" value="Pip-Stress-Framing" />
@@ -802,616 +724,616 @@
             </list>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/PIPSDKExample">
+        <entry key="$PROJECT_DIR$/PipApp">
           <value>
             <list>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of project ':PIPSDKExample'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="description" value="Displays the sub-projects of project ':PipApp'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="projects" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="validateSigningDebugAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="assembleReleaseUnitTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="prepareDebugDependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="processReleaseJavaRes" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="generateReleaseAssets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs lint on the Debug build." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="lintDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="assembleDebugUnitTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Creates a version of android.jar that's suitable for unit tests." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="mockableAndroidJar" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of project ':PIPSDKExample'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="description" value="Displays the configuration model of project ':PipApp'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="model" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from project ':PIPSDKExample'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="description" value="Displays the tasks runnable from project ':PipApp'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="tasks" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="compileDebugSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="incrementalDebugJavaCompilationSafeguard" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs all device checks using Device Providers and Test Servers." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="deviceCheck" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in project ':PIPSDKExample'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="description" value="Displays all dependencies declared in project ':PipApp'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="dependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="processDebugResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs lint on all variants." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="lint" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="packageDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="compileReleaseNdk" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="generateDebugResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="compileDebugJavaWithJavac" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project and all projects it depends on." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="buildNeeded" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="generateDebugAndroidTestBuildConfig" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="processDebugUnitTestJavaRes" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Run unit tests for the release build." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="testReleaseUnitTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="compileDebugAndroidTestShaders" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="mergeDebugShaders" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="transformNative_libsWithMergeJniLibsForDebugAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="compileDebugAndroidTestJavaWithJavac" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by project ':PIPSDKExample'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="description" value="Displays the components produced by project ':PipApp'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="components" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="compileReleaseRenderscript" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles all Debug builds." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="assembleDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="processDebugAndroidTestManifest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="compileDebugUnitTestJavaWithJavac" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="transformResourcesWithMergeJavaResForReleaseUnitTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="transformClassesWithDexForDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="preDebugAndroidTestBuild" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="processDebugAndroidTestJavaRes" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="processReleaseUnitTestJavaRes" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Uninstalls the Release build." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="uninstallRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="compileReleaseShaders" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="mergeReleaseResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="generateDebugAndroidTestSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="prepareDebugAndroidTestDependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="incrementalDebugAndroidTestJavaCompilationSafeguard" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="checkReleaseManifest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="compileDebugAndroidTestSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="mergeReleaseJniLibFolders" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="prepareReleaseDependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="processReleaseResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Installs and runs instrumentation tests using all Device Providers." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="deviceAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="mergeDebugAndroidTestAssets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="processReleaseManifest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Uninstalls the android (on device) tests for the Debug build." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="uninstallDebugAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in project ':PIPSDKExample'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="description" value="Displays the insight into a specific dependency in project ':PipApp'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="dependencyInsight" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="generateReleaseSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="incrementalReleaseUnitTestJavaCompilationSafeguard" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="preReleaseBuild" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles all variants of all applications and secondary packages." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="assemble" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="incrementalDebugUnitTestJavaCompilationSafeguard" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="incrementalReleaseJavaCompilationSafeguard" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays a help message." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="help" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="compileReleaseUnitTestSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Installs the android (on device) tests for the Debug build." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="installDebugAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="mergeDebugAssets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs all device checks on currently connected devices." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="connectedCheck" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Installs and runs the tests for debug on connected devices." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="connectedDebugAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Uninstall all applications." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="uninstallAll" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles all the Test applications." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="assembleAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="processDebugAndroidTestResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="transformNative_libsWithMergeJniLibsForDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="packageRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="validateSigningDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="compileDebugAidl" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="mergeDebugResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="preDebugUnitTestBuild" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="compileLint" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="generateDebugAndroidTestResValues" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="mergeReleaseShaders" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the Android dependencies of the project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="androidDependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="compileDebugAndroidTestNdk" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="compileDebugUnitTestSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="generateDebugSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="mergeDebugAndroidTestJniLibFolders" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="extractProguardFiles" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="transformClassesWithDexForDebugAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="assembleDebugAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="processDebugJavaRes" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="generateDebugAndroidTestAssets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="compileReleaseJavaWithJavac" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="jarReleaseClasses" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="transformResourcesWithMergeJavaResForDebugAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="prepareReleaseUnitTestDependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Run unit tests for all variants." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="test" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="compileDebugNdk" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="transformNative_libsWithMergeJniLibsForRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="mergeDebugAndroidTestResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="preReleaseUnitTestBuild" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="generateDebugResValues" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs all checks." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="check" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Prepare com.android.support:support-v4:23.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="prepareComAndroidSupportSupportV42300Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Run unit tests for the debug build." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="testDebugUnitTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Installs and runs instrumentation tests for all flavors on connected devices." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="connectedAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="jarDebugClasses" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="transformClassesWithDexForRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Installs the Debug build." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="installDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="preBuild" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="transformResourcesWithMergeJavaResForRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="compileReleaseSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="compileReleaseUnitTestJavaWithJavac" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="compileDebugShaders" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="transformResourcesWithMergeJavaResForDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="compileReleaseAidl" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs lint on the Release build." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="lintRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project and all projects that depend on it." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="buildDependents" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="generateDebugAssets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in project ':PIPSDKExample'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="description" value="Displays all buildscript dependencies declared in project ':PipApp'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="buildEnvironment" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="checkDebugManifest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="mergeDebugJniLibFolders" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Prints out all the source sets defined in this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="sourceSets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="transformResourcesWithMergeJavaResForDebugUnitTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="mergeReleaseAssets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="compileDebugRenderscript" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="generateReleaseBuildConfig" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="prepareDebugUnitTestDependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="generateReleaseResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs lint on just the fatal issues in the release build." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="lintVitalRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Uninstalls the Debug build." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="uninstallDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the signing info for each variant." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="signingReport" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="compileDebugAndroidTestAidl" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="mergeDebugAndroidTestShaders" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Deletes the build directory." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="clean" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="preDebugBuild" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="generateDebugBuildConfig" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="build" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles all Release builds." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="assembleRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="compileDebugAndroidTestRenderscript" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="generateDebugAndroidTestResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="processDebugManifest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="packageDebugAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="generateReleaseResValues" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of project ':PIPSDKExample'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PIPSDKExample" />
+                <option name="description" value="Displays the properties of project ':PipApp'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PipApp" />
                 <option name="name" value="properties" />
               </ExternalTaskPojo>
             </list>
@@ -1421,7 +1343,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="C:\Users\DED8IRD\Documents\School\PIP lab\Pip app\Pip-Stress-Framing" value="4434701811781" />
+        <entry key="C:\Users\DED8IRD\Documents\School\PIP lab\Pip app\Pip-Stress-Framing" value="4435246159630" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -1516,7 +1438,7 @@
                       </ExternalModuleBuildClasspathPojo>
                     </value>
                   </entry>
-                  <entry key="$PROJECT_DIR$/PIPSDKExample">
+                  <entry key="$PROJECT_DIR$/PipApp">
                     <value>
                       <ExternalModuleBuildClasspathPojo>
                         <option name="entries">
@@ -1597,13 +1519,13 @@
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/external/com-intellij/uast/145.597.3/uast-145.597.3.jar" />
                           </list>
                         </option>
-                        <option name="path" value="$PROJECT_DIR$/PIPSDKExample" />
+                        <option name="path" value="$PROJECT_DIR$/PipApp" />
                       </ExternalModuleBuildClasspathPojo>
                     </value>
                   </entry>
                 </map>
               </option>
-              <option name="name" value="PIPSDKExample" />
+              <option name="name" value="PipApp" />
               <option name="projectBuildClasspath">
                 <list>
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-all/8bnwg5hd3w55iofp58khbp6yv/gradle-2.14.1/src/announce" />
@@ -1749,9 +1671,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/PIPSDKExample/src/main/res/layout/activity_pipsdkexample.xml" />
-        <option value="$PROJECT_DIR$/PIPSDKExample/src/main/java/com/galvanic/pipsdk/PIPSDKExample/PIPSDKExampleActivity.java" />
-        <option value="$PROJECT_DIR$/PIPSDKExample/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/PipApp/src/main/AndroidManifest.xml" />
       </list>
     </option>
   </component>
@@ -1772,7 +1692,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator currentView="AndroidView" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -1786,6 +1706,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="AndroidView">
         <subPane>
@@ -1801,57 +1724,70 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="PIPSDKExample" />
+              <option name="myItemId" value="PipApp" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pip-Stress-Framing" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PipApp" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pip-Stress-Framing" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PipApp" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PipApp" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pip-Stress-Framing" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PipApp" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Pip-Stress-Framing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Pip-Stress-Framing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Pip-Stress-Framing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Pip-Stress-Framing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Pip-Stress-Framing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PIPSDKExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="device.picker.selection" value="f5d8e7dd" />
-    <property name="UI_DESIGNER_EDITOR_MODE.NlPaletteManager-NlPreviewForm.SHOW" value="false" />
   </component>
-  <component name="RunManager" selected="Android App.PIPSDKExample">
+  <component name="RunManager" selected="Android App.PipApp">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -1897,50 +1833,6 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="EXTRA_OPTIONS" value="" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="DEBUGGER_TYPE" value="Auto" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
-      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
-      <Auto>
-        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
-        <option name="WORKING_DIR" value="" />
-        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-      </Auto>
-      <Hybrid>
-        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
-        <option name="WORKING_DIR" value="" />
-        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-      </Hybrid>
-      <Java />
-      <Native>
-        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
-        <option name="WORKING_DIR" value="" />
-        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-      </Native>
-      <Profilers>
-        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
-        <option name="GAPID_ENABLED" value="false" />
-        <option name="GAPID_DISABLE_PCS" value="false" />
-        <option name="SUPPORT_LIB_ENABLED" value="true" />
-        <option name="INSTRUMENTATION_ENABLED" value="true" />
-      </Profilers>
-      <method />
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -1954,22 +1846,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list />
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -1995,27 +1871,6 @@
         <option name="Make" enabled="false" />
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
-    </configuration>
-    <configuration default="true" type="JarApplication" factoryName="JAR Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SCRATCH_FILE_ID" value="0" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
@@ -2053,36 +1908,8 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="false" name="PIPSDKExample" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
-      <module name="PIPSDKExample" />
+    <configuration default="false" name="PipApp" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="PipApp" />
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
       <option name="PM_INSTALL_OPTIONS" value="" />
@@ -2127,7 +1954,7 @@
       <method />
     </configuration>
     <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Android App.PIPSDKExample" />
+      <item index="0" class="java.lang.String" itemvalue="Android App.PipApp" />
     </list>
     <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
@@ -2145,16 +1972,13 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d4435a4d-e8ca-403c-b5c8-73008ca6b177" name="Default" comment="" />
-      <created>1478233989022</created>
+      <changelist id="5cf8289d-a5a5-45ad-a412-e65975351355" name="Default" comment="" />
+      <created>1478506443593</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1478233989022</updated>
+      <updated>1478506443593</updated>
     </task>
     <servers />
   </component>
@@ -2163,79 +1987,37 @@
     <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32880098" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32880098" sideWeight="0.5043243" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Monitor" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32880098" sideWeight="0.49567568" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25135136" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24972972" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24972972" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32880098" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24972972" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
-  </component>
-  <component name="Vcs.Log.UiProperties">
-    <option name="RECENTLY_FILTERED_USER_GROUPS">
-      <collection />
-    </option>
-    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-      <collection />
-    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -2245,69 +2027,34 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PIPSDKExample/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PIPSDKExample/src/main/java/com/galvanic/pipsdk/PIPSDKExample/PIPSDKExampleActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#9917#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PIPSDKExample/src/main/res/layout/activity_pipsdkexample.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PIPSDKExample/src/main/res/layout/activity_fullscreen.xml" />
-    <entry file="file://$PROJECT_DIR$/PIPSDKExample/src/main/java/com/galvanic/pipsdk/PIPSDKExample/FullscreenActivity.java" />
-    <entry file="file://$PROJECT_DIR$/PIPSDKExample/src/main/res/layout/activity_pipsdkexample.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PIPSDKExample/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/PipApp/src/main/AndroidManifest.xml">
       <provider editor-type-id="android-manifest">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PIPSDKExample/src/main/java/com/galvanic/pipsdk/PIPSDKExample/PIPSDKExampleActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="283" column="70" selection-start-line="283" selection-start-column="70" selection-end-line="283" selection-end-column="70" />
-          <folding>
-            <element signature="e#0#9917#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="350">
+          <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+          <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PipApp/src/main/java/com/galvanic/pipsdk/PipApp/PIPSDKExampleActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PipApp/src/main/res/layout/activity_pipsdkexample.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
   </component>
