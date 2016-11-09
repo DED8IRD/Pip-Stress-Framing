@@ -10,27 +10,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5cf8289d-a5a5-45ad-a412-e65975351355" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/classes/debug/com/galvanic/pipsdk/PipApp/PIPSDKExampleActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/classes/debug/com/galvanic/pipsdk/PipApp/PIPSDKExampleActivity$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/classes/debug/com/galvanic/pipsdk/PipApp/PIPSDKExampleActivity$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/classes/debug/com/galvanic/pipsdk/PipApp/PIPSDKExampleActivity$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/classes/debug/com/galvanic/pipsdk/PipApp/PIPSDKExampleActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/incremental-verifier/debug/com/galvanic/pipsdk/PipApp/PIPSDKExampleActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/incremental-verifier/debug/com/galvanic/pipsdk/PipApp/PIPSDKExampleActivity$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/incremental-verifier/debug/com/galvanic/pipsdk/PipApp/PIPSDKExampleActivity$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/incremental-verifier/debug/com/galvanic/pipsdk/PipApp/PIPSDKExampleActivity$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/incremental-verifier/debug/com/galvanic/pipsdk/PipApp/PIPSDKExampleActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/galvanic/pipsdk/PipApp/PIPSDKExampleActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/galvanic/pipsdk/PipApp/PIPSDKExampleActivity$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/galvanic/pipsdk/PipApp/PIPSDKExampleActivity$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/galvanic/pipsdk/PipApp/PIPSDKExampleActivity$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/galvanic/pipsdk/PipApp/PIPSDKExampleActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/galvanic/pipsdk/PipApp/PIPSDKExampleActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/galvanic/pipsdk/PipApp/PIPSDKExampleActivity$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/galvanic/pipsdk/PipApp/PIPSDKExampleActivity$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/galvanic/pipsdk/PipApp/PIPSDKExampleActivity$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/galvanic/pipsdk/PipApp/PIPSDKExampleActivity.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PipApp/src/main/java/com/galvanic/pipsdk/PipApp/PIPSDKExampleActivity.java" afterPath="$PROJECT_DIR$/PipApp/src/main/java/com/galvanic/pipsdk/PipApp/PipAppMainActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PipApp/src/main/java/sqlite/helper/dbHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PipApp/src/main/java/sqlite/model/PipSession.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PIPSDKExample.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/classes/debug/com/galvanic/pipsdk/PipApp/PipAppMainActivity$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/classes/debug/com/galvanic/pipsdk/PipApp/PipAppMainActivity$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/classes/debug/com/galvanic/pipsdk/PipApp/PipAppMainActivity$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/classes/debug/com/galvanic/pipsdk/PipApp/PipAppMainActivity$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/classes/debug/com/galvanic/pipsdk/PipApp/PipAppMainActivity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/incremental/packageDebug/file-input-save-data.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/incremental/packageInstantRunResourcesDebug/file-input-save-data.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
@@ -68,6 +57,11 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/incremental-runtime-classes/debug/instant-run.jar" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/incremental-runtime-classes/debug/instant-run.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/incremental-verifier/debug/com/galvanic/pipsdk/PipApp/BuildConfig.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/incremental-verifier/debug/com/galvanic/pipsdk/PipApp/BuildConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/incremental-verifier/debug/com/galvanic/pipsdk/PipApp/PipAppMainActivity$1.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/incremental-verifier/debug/com/galvanic/pipsdk/PipApp/PipAppMainActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/incremental-verifier/debug/com/galvanic/pipsdk/PipApp/PipAppMainActivity$2.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/incremental-verifier/debug/com/galvanic/pipsdk/PipApp/PipAppMainActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/incremental-verifier/debug/com/galvanic/pipsdk/PipApp/PipAppMainActivity$3.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/incremental-verifier/debug/com/galvanic/pipsdk/PipApp/PipAppMainActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/incremental-verifier/debug/com/galvanic/pipsdk/PipApp/PipAppMainActivity$4.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/incremental-verifier/debug/com/galvanic/pipsdk/PipApp/PipAppMainActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/incremental-verifier/debug/com/galvanic/pipsdk/PipApp/PipAppMainActivity.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/incremental-verifier/debug/com/galvanic/pipsdk/PipApp/PipAppMainActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/incremental-verifier/debug/com/galvanic/pipsdk/PipApp/R$attr.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/incremental-verifier/debug/com/galvanic/pipsdk/PipApp/R$attr.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/incremental-verifier/debug/com/galvanic/pipsdk/PipApp/R$color.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/incremental-verifier/debug/com/galvanic/pipsdk/PipApp/R$color.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/incremental-verifier/debug/com/galvanic/pipsdk/PipApp/R$dimen.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/incremental-verifier/debug/com/galvanic/pipsdk/PipApp/R$dimen.class" />
@@ -113,6 +107,11 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/galvanic/pipsdk/PipApp/BuildConfig.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/galvanic/pipsdk/PipApp/BuildConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/galvanic/pipsdk/PipApp/PipAppMainActivity$1.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/galvanic/pipsdk/PipApp/PipAppMainActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/galvanic/pipsdk/PipApp/PipAppMainActivity$2.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/galvanic/pipsdk/PipApp/PipAppMainActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/galvanic/pipsdk/PipApp/PipAppMainActivity$3.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/galvanic/pipsdk/PipApp/PipAppMainActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/galvanic/pipsdk/PipApp/PipAppMainActivity$4.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/galvanic/pipsdk/PipApp/PipAppMainActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/galvanic/pipsdk/PipApp/PipAppMainActivity.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/galvanic/pipsdk/PipApp/PipAppMainActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/galvanic/pipsdk/PipApp/R$attr.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/galvanic/pipsdk/PipApp/R$attr.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/galvanic/pipsdk/PipApp/R$color.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/galvanic/pipsdk/PipApp/R$color.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/galvanic/pipsdk/PipApp/R$dimen.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/galvanic/pipsdk/PipApp/R$dimen.class" />
@@ -139,6 +138,11 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/android/tools/fd/dummy/slice_6.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/android/tools/fd/dummy/slice_6.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/android/tools/fd/dummy/slice_7.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/android/tools/fd/dummy/slice_7.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/galvanic/pipsdk/PipApp/BuildConfig.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/galvanic/pipsdk/PipApp/BuildConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/galvanic/pipsdk/PipApp/PipAppMainActivity$1.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/galvanic/pipsdk/PipApp/PipAppMainActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/galvanic/pipsdk/PipApp/PipAppMainActivity$2.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/galvanic/pipsdk/PipApp/PipAppMainActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/galvanic/pipsdk/PipApp/PipAppMainActivity$3.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/galvanic/pipsdk/PipApp/PipAppMainActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/galvanic/pipsdk/PipApp/PipAppMainActivity$4.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/galvanic/pipsdk/PipApp/PipAppMainActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/galvanic/pipsdk/PipApp/PipAppMainActivity.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/galvanic/pipsdk/PipApp/PipAppMainActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/galvanic/pipsdk/PipApp/R$attr.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/galvanic/pipsdk/PipApp/R$attr.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/galvanic/pipsdk/PipApp/R$color.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/galvanic/pipsdk/PipApp/R$color.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/galvanic/pipsdk/PipApp/R$dimen.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/galvanic/pipsdk/PipApp/R$dimen.class" />
@@ -177,6 +181,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pip-Stress-Framing.iml" afterPath="$PROJECT_DIR$/Pip-Stress-Framing.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/PipApp.iml" afterPath="$PROJECT_DIR$/PipApp/PipApp.iml" />
@@ -213,9 +218,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/incremental/mergeDebugResources/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/incremental/mergeDebugShaders/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/incremental/packageDebug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/incremental/packageDebug/file-input-save-data.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/incremental/packageInstantRunResourcesDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/incremental/packageInstantRunResourcesDebug/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/incremental/packageInstantRunResourcesDebug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/incremental/packageInstantRunResourcesDebug/file-input-save-data.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/instant-run-support/debug/manifest.crc" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/instant-run-support/debug/manifest.crc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/instant-run-support/debug/manifest.xml" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/instant-run-support/debug/manifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" />
@@ -232,6 +235,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/PipApp/build/outputs/logs/manifest-merger-debug-report.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/lint.xml" afterPath="$PROJECT_DIR$/PipApp/lint.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/PipApp/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/src/main/java/com/galvanic/pipsdk/PipApp/PipAppMainActivity.java" afterPath="$PROJECT_DIR$/PipApp/src/main/java/com/galvanic/pipsdk/PipApp/PipAppMainActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/src/main/java/com/galvanic/pipsdk/PipApp/util/SystemUiHider.java" afterPath="$PROJECT_DIR$/PipApp/src/main/java/com/galvanic/pipsdk/PipApp/util/SystemUiHider.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/src/main/java/com/galvanic/pipsdk/PipApp/util/SystemUiHiderBase.java" afterPath="$PROJECT_DIR$/PipApp/src/main/java/com/galvanic/pipsdk/PipApp/util/SystemUiHiderBase.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/src/main/java/com/galvanic/pipsdk/PipApp/util/SystemUiHiderHoneycomb.java" afterPath="$PROJECT_DIR$/PipApp/src/main/java/com/galvanic/pipsdk/PipApp/util/SystemUiHiderHoneycomb.java" />
@@ -288,11 +292,11 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="24" column="71" selection-start-line="24" selection-start-column="71" selection-end-line="24" selection-end-column="71" />
+            <state relative-caret-position="-189">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
-                <element signature="e#984#1002#0" expanded="true" />
-                <element signature="e#1122#1140#0" expanded="true" />
+                <element signature="e#977#995#0" expanded="true" />
+                <element signature="e#1115#1133#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -301,27 +305,84 @@
       <file leaf-file-name="PipAppMainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PipApp/src/main/java/com/galvanic/pipsdk/PipApp/PipAppMainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="154">
+              <caret line="293" column="23" selection-start-line="293" selection-start-column="23" selection-end-line="293" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PipSession.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PipApp/src/main/java/sqlite/model/PipSession.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+              <folding>
+                <element signature="e#390#391#0" expanded="true" />
+                <element signature="e#436#437#0" expanded="true" />
+                <element signature="e#882#883#0" expanded="true" />
+                <element signature="e#910#911#0" expanded="true" />
+                <element signature="e#964#965#0" expanded="true" />
+                <element signature="e#1010#1011#0" expanded="true" />
+                <element signature="e#1045#1046#0" expanded="true" />
+                <element signature="e#1083#1084#0" expanded="true" />
+                <element signature="e#1139#1140#0" expanded="true" />
+                <element signature="e#1189#1190#0" expanded="true" />
+                <element signature="e#1241#1242#0" expanded="true" />
+                <element signature="e#1287#1288#0" expanded="true" />
+                <element signature="e#1329#1330#0" expanded="true" />
+                <element signature="e#1359#1360#0" expanded="true" />
+                <element signature="e#1397#1398#0" expanded="true" />
+                <element signature="e#1436#1437#0" expanded="true" />
+                <element signature="e#1466#1467#0" expanded="true" />
+                <element signature="e#1505#1506#0" expanded="true" />
+                <element signature="e#1544#1545#0" expanded="true" />
+                <element signature="e#1585#1586#0" expanded="true" />
+                <element signature="e#1622#1623#0" expanded="true" />
+                <element signature="e#1661#1662#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dbHelper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PipApp/src/main/java/sqlite/helper/dbHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="129">
+              <caret line="76" column="29" selection-start-line="76" selection-start-column="29" selection-end-line="76" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1669#1670#0" expanded="true" />
+                <element signature="e#1738#1739#0" expanded="true" />
+                <element signature="e#3554#3566#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="activity_pipsdkexample.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PipApp/src/main/res/layout/activity_pipsdkexample.xml">
-          <provider editor-type-id="text-editor">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
-          <provider selected="true" editor-type-id="android-designer2">
+          <provider editor-type-id="android-designer2">
             <state />
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="ASClass" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -1925,7 +1986,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/PipApp/src/main/res/layout/activity_pipsdkexample.xml" />
+        <option value="$PROJECT_DIR$/PipApp/src/main/java/sqlite/helper/PipSessionInfo.java" />
+        <option value="$PROJECT_DIR$/PipApp/src/main/java/sqlite/model/PipSessionInfo.java" />
         <option value="$PROJECT_DIR$/PipApp/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/PipApp/src/main/java/sqlite/model/PipSession.java" />
+        <option value="$PROJECT_DIR$/PipApp/src/main/java/sqlite/helper/dbHelper.java" />
+        <option value="$PROJECT_DIR$/PipApp/src/main/java/com/galvanic/pipsdk/PipApp/PipAppMainActivity.java" />
       </list>
     </option>
   </component>
@@ -1980,9 +2047,27 @@
               <option name="myItemId" value="PipApp" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+              <option name="myItemId" value="Pip-Stress-Framing" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PipApp" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sqlite" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -1995,12 +2080,16 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+              <option name="myItemId" value="sqlite" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -2011,6 +2100,36 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="PipApp" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PipApp" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pip-Stress-Framing" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PipApp" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PipApp" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -2022,6 +2141,8 @@
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="device.picker.selection" value="f5d8e7dd" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/PipApp/src/main/java" />
+    <property name="UI_DESIGNER_EDITOR_MODE.NlPaletteManager-NlPreviewForm.SHOW" value="false" />
   </component>
   <component name="RunManager" selected="Android App.PipApp">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
@@ -2069,6 +2190,50 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method />
     </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+      </Native>
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <method />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -2082,6 +2247,22 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -2108,6 +2289,27 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -2130,6 +2332,34 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
       <option name="OUTPUT_DIRECTORY" />
       <option name="ANNOTATION_TYPE" />
       <option name="ENV_VARIABLES" />
@@ -2208,6 +2438,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="5cf8289d-a5a5-45ad-a412-e65975351355" name="Default" comment="" />
@@ -2222,38 +2455,47 @@
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3250927" sideWeight="0.5345946" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41903585" sideWeight="0.48054054" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5194595" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3250927" sideWeight="0.4654054" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32880098" sideWeight="0.5064865" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32880098" sideWeight="0.49351352" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32880098" sideWeight="0.49567568" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24972972" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32880098" sideWeight="0.49567568" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -2268,8 +2510,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#984#1002#0" expanded="true" />
-            <element signature="e#1122#1140#0" expanded="true" />
+            <element signature="e#977#995#0" expanded="true" />
+            <element signature="e#1115#1133#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2278,8 +2520,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PipApp/src/main/java/sqlite/helper/PipSessionInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PipApp/src/main/res/layout/activity_pipsdkexample.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PipApp/src/main/AndroidManifest.xml">
@@ -2287,31 +2550,66 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="24" column="71" selection-start-line="24" selection-start-column="71" selection-end-line="24" selection-end-column="71" />
+        <state relative-caret-position="-189">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
-            <element signature="e#984#1002#0" expanded="true" />
-            <element signature="e#1122#1140#0" expanded="true" />
+            <element signature="e#977#995#0" expanded="true" />
+            <element signature="e#1115#1133#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PipApp/src/main/res/layout/activity_pipsdkexample.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+    <entry file="file://$PROJECT_DIR$/PipApp/src/main/java/sqlite/model/PipSession.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+          <folding>
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+            <element signature="e#882#883#0" expanded="true" />
+            <element signature="e#910#911#0" expanded="true" />
+            <element signature="e#964#965#0" expanded="true" />
+            <element signature="e#1010#1011#0" expanded="true" />
+            <element signature="e#1045#1046#0" expanded="true" />
+            <element signature="e#1083#1084#0" expanded="true" />
+            <element signature="e#1139#1140#0" expanded="true" />
+            <element signature="e#1189#1190#0" expanded="true" />
+            <element signature="e#1241#1242#0" expanded="true" />
+            <element signature="e#1287#1288#0" expanded="true" />
+            <element signature="e#1329#1330#0" expanded="true" />
+            <element signature="e#1359#1360#0" expanded="true" />
+            <element signature="e#1397#1398#0" expanded="true" />
+            <element signature="e#1436#1437#0" expanded="true" />
+            <element signature="e#1466#1467#0" expanded="true" />
+            <element signature="e#1505#1506#0" expanded="true" />
+            <element signature="e#1544#1545#0" expanded="true" />
+            <element signature="e#1585#1586#0" expanded="true" />
+            <element signature="e#1622#1623#0" expanded="true" />
+            <element signature="e#1661#1662#0" expanded="true" />
+          </folding>
         </state>
       </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PipApp/src/main/java/sqlite/helper/dbHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="76" column="29" selection-start-line="76" selection-start-column="29" selection-end-line="76" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1669#1670#0" expanded="true" />
+            <element signature="e#1738#1739#0" expanded="true" />
+            <element signature="e#3554#3566#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PipApp/src/main/java/com/galvanic/pipsdk/PipApp/PipAppMainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="154">
+          <caret line="293" column="23" selection-start-line="293" selection-start-column="23" selection-end-line="293" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

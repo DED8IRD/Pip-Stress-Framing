@@ -8,12 +8,13 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageView;
 import android.widget.TextView;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 
 import java.util.ArrayList;
+import java.util.List;
+import android.util.Log;
 
 import com.galvanic.pipsdk.PIP.PipInfo;
 // PIP-specific imports
@@ -24,9 +25,10 @@ import com.galvanic.pipsdk.PIP.PipStandardAnalyzer;
 import com.galvanic.pipsdk.PIP.PipConnectionListener;
 import com.galvanic.pipsdk.PIP.PipManagerListener;
 import com.galvanic.pipsdk.PIP.PipAnalyzerListener;
+import sqlite.helper.dbHelper;
+import sqlite.model.PipSession;
 // Visual imports
 import android.graphics.Color;
-// PIP-specific imports
 
 /* The application's user interface must inherit and implement the
  * PipManagerListener, PipConnectionListener and PipAnalyzerListener 
@@ -49,11 +51,12 @@ public class PipAppMainActivity
 	TextView textViewStatus = null;
     TextView tvRaw = null;
     TextView tvPrevious = null;
-    ImageView ivStatus = null;
 	TextView dynamicColorBlock = null;
 
     double currentRawValue;
     double accumulated;
+    String participant = null;
+    dbHelper db = null;
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) 
@@ -67,13 +70,8 @@ public class PipAppMainActivity
         tvPrevious = (TextView) findViewById(R.id.tvPrevious);
 		buttonDiscover.setEnabled(true);
 		dynamicColorBlock = (TextView)findViewById(R.id.dynamic_color_block);
-
-        //ivStatus = (ImageView) findViewById(R.id.ivStatus);
-
-
-
-
-
+		db = new dbHelper(this);
+		participant = "participant"; // filler participant field
 		
 		// Kick off a PIP discovery process when the Discover button is clicked.
 		buttonDiscover.setOnClickListener(new View.OnClickListener() {
@@ -252,6 +250,12 @@ public class PipAppMainActivity
 		buttonConnect.setEnabled(true);
 		buttonDiscover.setEnabled(true);
 		buttonDisconnect.setEnabled(false);
+
+        List<PipSession> allSessions = db.getAllSessions();
+        for (PipSession session: allSessions) {
+            Log.d("SessionInfo", session.getId() +','+ session.getParticipant() +','+ session.getGSR() +','+
+                    session.getCurrentTrend() +','+ session.getAccumTrend());
+        }
 	}
 
 	//*************************************************	
@@ -281,29 +285,29 @@ public class PipAppMainActivity
             accumulated =  op.get(PipStandardAnalyzer.ACCUMULATED_TREND.ordinal()).outputValue;
             tvPrevious.setText(String.valueOf(accumulated));
 
-
-
 			// Update the UI based on the current trend - relaxing, stressing, constant or none.
 			switch ( currentTrendEvent )
 			{
 				case PipAnalyzerListener.STRESS_TREND_RELAXING:
 					textViewStatus.setText("Trend: Relaxing");
 					dynamicColorBlock.setBackgroundColor(Color.BLUE);
-
+                    Log.d(participant, currentRawValue, "Relaxing", accumulated);
+					db.addPipSession(new PipSession(participant, currentRawValue, "Relaxing", accumulated));
                     break;
 				case PipAnalyzerListener.STRESS_TREND_STRESSING:
 					textViewStatus.setText("Trend: Stressing");
 					dynamicColorBlock.setBackgroundColor(Color.YELLOW);
-
+                    db.addPipSession(new PipSession(participant, currentRawValue, "Stressing", accumulated));
                     break;
 				case PipAnalyzerListener.STRESS_TREND_CONSTANT:
 					textViewStatus.setText("Trend: Constant");
 					dynamicColorBlock.setBackgroundColor(Color.GRAY);
-
+                    db.addPipSession(new PipSession(participant, currentRawValue, "Constant", accumulated));
                     break;
 				case PipAnalyzerListener.STRESS_TREND_NONE:
 					textViewStatus.setText("Trend: None");
-					break;
+                    db.addPipSession(new PipSession(participant, currentRawValue, "None", accumulated));
+                    break;
 			}
 		}
 		else 
