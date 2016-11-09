@@ -291,7 +291,7 @@ public class PipAppMainActivity
 				case PipAnalyzerListener.STRESS_TREND_RELAXING:
 					textViewStatus.setText("Trend: Relaxing");
 					dynamicColorBlock.setBackgroundColor(Color.BLUE);
-                    Log.d(participant, currentRawValue, "Relaxing", accumulated);
+//                    Log.d(participant +','+ String.valueOf(currentRawValue) + ",Relaxing,", String.valueOf(accumulated));
 					db.addPipSession(new PipSession(participant, currentRawValue, "Relaxing", accumulated));
                     break;
 				case PipAnalyzerListener.STRESS_TREND_STRESSING:

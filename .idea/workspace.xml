@@ -10,16 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5cf8289d-a5a5-45ad-a412-e65975351355" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PipApp/src/main/java/sqlite/helper/dbHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PipApp/src/main/java/sqlite/model/PipSession.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PIPSDKExample.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/classes/debug/com/galvanic/pipsdk/PipApp/PipAppMainActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/classes/debug/com/galvanic/pipsdk/PipApp/PipAppMainActivity$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/classes/debug/com/galvanic/pipsdk/PipApp/PipAppMainActivity$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/classes/debug/com/galvanic/pipsdk/PipApp/PipAppMainActivity$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/classes/debug/com/galvanic/pipsdk/PipApp/PipAppMainActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/incremental/packageDebug/file-input-save-data.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/incremental/packageInstantRunResourcesDebug/file-input-save-data.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/buildId.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/buildId.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/buildId.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
@@ -51,6 +44,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/classes/debug/com/galvanic/pipsdk/PipApp/util/SystemUiHiderBase.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/classes/debug/com/galvanic/pipsdk/PipApp/util/SystemUiHiderBase.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/classes/debug/com/galvanic/pipsdk/PipApp/util/SystemUiHiderHoneycomb$1.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/classes/debug/com/galvanic/pipsdk/PipApp/util/SystemUiHiderHoneycomb$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/classes/debug/com/galvanic/pipsdk/PipApp/util/SystemUiHiderHoneycomb.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/classes/debug/com/galvanic/pipsdk/PipApp/util/SystemUiHiderHoneycomb.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/classes/debug/sqlite/helper/dbHelper.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/classes/debug/sqlite/helper/dbHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/classes/debug/sqlite/model/PipSession.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/classes/debug/sqlite/model/PipSession.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/annotations.zip" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/annotations.zip" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/classes.jar" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/classes.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/libs/internal_impl-23.0.0.jar" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/libs/internal_impl-23.0.0.jar" />
@@ -79,6 +74,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/incremental-verifier/debug/com/galvanic/pipsdk/PipApp/util/SystemUiHiderBase.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/incremental-verifier/debug/com/galvanic/pipsdk/PipApp/util/SystemUiHiderBase.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/incremental-verifier/debug/com/galvanic/pipsdk/PipApp/util/SystemUiHiderHoneycomb$1.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/incremental-verifier/debug/com/galvanic/pipsdk/PipApp/util/SystemUiHiderHoneycomb$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/incremental-verifier/debug/com/galvanic/pipsdk/PipApp/util/SystemUiHiderHoneycomb.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/incremental-verifier/debug/com/galvanic/pipsdk/PipApp/util/SystemUiHiderHoneycomb.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/incremental-verifier/debug/sqlite/helper/dbHelper.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/incremental-verifier/debug/sqlite/helper/dbHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/incremental-verifier/debug/sqlite/model/PipSession.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/incremental-verifier/debug/sqlite/model/PipSession.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/incremental/compileDebugAidl/dependency.store" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/incremental/compileDebugAidl/dependency.store" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/incremental/compileDebugAndroidTestAidl/dependency.store" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/incremental/compileDebugAndroidTestAidl/dependency.store" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/incremental/packageDebug/zip-cache/8BM169iD14tZb3DKtweOq_flbo4=" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/incremental/packageDebug/zip-cache/8BM169iD14tZb3DKtweOq_flbo4=" />
@@ -129,10 +126,14 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/galvanic/pipsdk/PipApp/util/SystemUiHiderBase.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/galvanic/pipsdk/PipApp/util/SystemUiHiderBase.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/galvanic/pipsdk/PipApp/util/SystemUiHiderHoneycomb$1.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/galvanic/pipsdk/PipApp/util/SystemUiHiderHoneycomb$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/galvanic/pipsdk/PipApp/util/SystemUiHiderHoneycomb.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/galvanic/pipsdk/PipApp/util/SystemUiHiderHoneycomb.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/sqlite/helper/dbHelper.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/sqlite/helper/dbHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/sqlite/model/PipSession.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/sqlite/model/PipSession.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/android/tools/fd/dummy/slice_0.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/android/tools/fd/dummy/slice_0.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/sqlite/helper/dbHelper.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/sqlite/helper/dbHelper.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/com/android/tools/fd/dummy/slice_1.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/com/android/tools/fd/dummy/slice_1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/android/tools/fd/dummy/slice_2.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/android/tools/fd/dummy/slice_2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/android/tools/fd/dummy/slice_3.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/android/tools/fd/dummy/slice_3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/sqlite/model/PipSession.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/sqlite/model/PipSession.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/android/tools/fd/dummy/slice_4.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/android/tools/fd/dummy/slice_4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/android/tools/fd/dummy/slice_5.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/android/tools/fd/dummy/slice_5.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/android/tools/fd/dummy/slice_6.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/android/tools/fd/dummy/slice_6.class" />
@@ -239,6 +240,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/src/main/java/com/galvanic/pipsdk/PipApp/util/SystemUiHider.java" afterPath="$PROJECT_DIR$/PipApp/src/main/java/com/galvanic/pipsdk/PipApp/util/SystemUiHider.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/src/main/java/com/galvanic/pipsdk/PipApp/util/SystemUiHiderBase.java" afterPath="$PROJECT_DIR$/PipApp/src/main/java/com/galvanic/pipsdk/PipApp/util/SystemUiHiderBase.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/src/main/java/com/galvanic/pipsdk/PipApp/util/SystemUiHiderHoneycomb.java" afterPath="$PROJECT_DIR$/PipApp/src/main/java/com/galvanic/pipsdk/PipApp/util/SystemUiHiderHoneycomb.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/src/main/java/sqlite/helper/dbHelper.java" afterPath="$PROJECT_DIR$/PipApp/src/main/java/sqlite/helper/dbHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/src/main/java/sqlite/model/PipSession.java" afterPath="$PROJECT_DIR$/PipApp/src/main/java/sqlite/model/PipSession.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/src/main/res/layout/activity_pipsdkexample.xml" afterPath="$PROJECT_DIR$/PipApp/src/main/res/layout/activity_pipsdkexample.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/src/main/res/menu/pipsdkexample.xml" afterPath="$PROJECT_DIR$/PipApp/src/main/res/menu/pipsdkexample.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/src/main/res/values-sw600dp/dimens.xml" afterPath="$PROJECT_DIR$/PipApp/src/main/res/values-sw600dp/dimens.xml" />
@@ -305,8 +308,8 @@
       <file leaf-file-name="PipAppMainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PipApp/src/main/java/com/galvanic/pipsdk/PipApp/PipAppMainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="293" column="23" selection-start-line="293" selection-start-column="23" selection-end-line="293" selection-end-column="23" />
+            <state relative-caret-position="129">
+              <caret line="294" column="22" selection-start-line="294" selection-start-column="20" selection-end-line="294" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -2457,8 +2460,8 @@
     <layout>
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3250927" sideWeight="0.5345946" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41903585" sideWeight="0.48054054" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41903585" sideWeight="0.4654054" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41903585" sideWeight="0.5345946" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2467,7 +2470,7 @@
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3250927" sideWeight="0.4654054" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3250927" sideWeight="0.45891893" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2605,8 +2608,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PipApp/src/main/java/com/galvanic/pipsdk/PipApp/PipAppMainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="293" column="23" selection-start-line="293" selection-start-column="23" selection-end-line="293" selection-end-column="23" />
+        <state relative-caret-position="129">
+          <caret line="294" column="22" selection-start-line="294" selection-start-column="20" selection-end-line="294" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
