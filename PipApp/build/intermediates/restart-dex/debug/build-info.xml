@@ -5,40 +5,33 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="848882285026284"
+    timestamp="909005255353453"
     token="-5965018401416009021"
-    verifier="FIELD_TYPE_CHANGE" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="277" />
+        duration="241" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="23" />
+        duration="74" />
     <task
         name="verifier"
-        duration="11" />
+        duration="16" />
 
     <artifact
-        location="C:\Users\DED8IRD\Documents\School\PIP lab\Pip app\Pip-Stress-Framing\PipApp\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
-        type="DEX" />
+        location="C:\Users\DED8IRD\Documents\School\PIP lab\Pip app\Pip-Stress-Framing\PipApp\build\outputs\apk\PipApp-debug.apk"
+        type="MAIN" />
 
     <build
-        timestamp="848683205931860"
+        timestamp="909005255353453"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\DED8IRD\Documents\School\PIP lab\Pip app\Pip-Stress-Framing\PipApp\build\outputs\apk\PipApp-debug.apk"
             type="MAIN" />
-    </build>
-    <build
-        timestamp="848882285026284"
-        verifier="FIELD_TYPE_CHANGE" >
-        <artifact
-            location="C:\Users\DED8IRD\Documents\School\PIP lab\Pip app\Pip-Stress-Framing\PipApp\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
-            type="DEX" />
     </build>
 
 </instant-run>

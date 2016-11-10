@@ -6,18 +6,23 @@ package com.galvanic.pipsdk.PipApp;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.os.Environment;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
+import android.content.Context;
 
+import java.io.BufferedWriter;
+import java.io.FileWriter;
 import java.util.ArrayList;
 import java.util.List;
+import java.io.File;
+import java.io.FileOutputStream;
 import android.util.Log;
-
-import com.galvanic.pipsdk.PIP.PipInfo;
 // PIP-specific imports
+import com.galvanic.pipsdk.PIP.PipInfo;
 import com.galvanic.pipsdk.PIP.PipManager;
 import com.galvanic.pipsdk.PIP.Pip;
 import com.galvanic.pipsdk.PIP.PipAnalyzerOutput;
@@ -57,6 +62,28 @@ public class PipAppMainActivity
     double accumulated;
     String participant = null;
     dbHelper db = null;
+    File saveDir = new File(Environment.getExternalStorageDirectory().getAbsolutePath()
+                            + File.separator);
+
+    // Write to csv from db table.
+    public void writeToCSV(File saveDir, String filename, dbHelper db) {
+        File output = new File(saveDir, filename + ".csv");
+        try {
+            BufferedWriter outputToFile = new BufferedWriter(new FileWriter(output));
+            outputToFile.write("id,participant,raw_GSR,current_trend,accum_trend\n");
+            List<PipSession> allSessions = db.getAllSessions();
+            for (PipSession session: allSessions) {
+                outputToFile.write(String.valueOf(session.getId()) +','+
+                        session.getParticipant() +','+
+                        String.valueOf(session.getGSR()) +','+
+                        session.getCurrentTrend() +','+
+                        String.valueOf(session.getAccumTrend()) + "\n");
+            }
+            outputToFile.close();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) 
@@ -185,20 +212,20 @@ public class PipAppMainActivity
 
 		buttonDiscover.setEnabled(true);
 	}
-	
+
 	// onPipsResumed will be called when the application resumes
 	// from the suspended state. The SDK automatically attempts to
 	// re-connect to any PIPs that were connected prior to the app
 	// suspending.
 	@Override
 	public void onPipsResumed(int status)
-	{	
+	{
 	}
 
-	//*************************************************	
+	//*************************************************
 	//* PipConnectionListener interface implementation
 	//*************************************************
-	
+
 	// This event is raised when a connection attempt to a PIP
 	// completes.
 	@Override
@@ -251,31 +278,27 @@ public class PipAppMainActivity
 		buttonDiscover.setEnabled(true);
 		buttonDisconnect.setEnabled(false);
 
-        List<PipSession> allSessions = db.getAllSessions();
-        for (PipSession session: allSessions) {
-            Log.d("SessionInfo", session.getId() +','+ session.getParticipant() +','+ session.getGSR() +','+
-                    session.getCurrentTrend() +','+ session.getAccumTrend());
-        }
+        // Write to csv on disconnect
+        writeToCSV(saveDir, participant, db);
 	}
 
-	//*************************************************	
+
+	//*************************************************
 	//* PipAnalyzerListener interface implementation
 	//*************************************************
-	
+
 	// This event is raised when the PIP's signal analyzer processes
-	// new sample data and updates its output(s). While it is not 
+	// new sample data and updates its output(s). While it is not
 	// a requirement that an analyzer generate an event on a per-sample
 	// basis, the SDK's standard analyzer does so.
 	@Override
 	public void onAnalyzerOutputEvent(int pipID, int status)
 	{
-
-
 		if( pipManager.getPip(pipID).isActive())
 		{
 			// Retrieve the analyzer's current output
 			ArrayList<PipAnalyzerOutput> op =  pipManager.getPip(pipID).getAnalyzerOutput();
-			
+
 			// Get the analyzer's CURRENT_TREND output
 			int currentTrendEvent = (int)op.get(PipStandardAnalyzer.CURRENT_TREND_EVENT.ordinal()).outputValue ;
 
@@ -309,7 +332,7 @@ public class PipAppMainActivity
                     break;
 			}
 		}
-		else 
+		else
 		{
 			// The PIP is in the streaming state, but is not being held.
 			textViewStatus.setText("Streaming: Inactive");
