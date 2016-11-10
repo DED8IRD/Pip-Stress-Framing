@@ -1,4 +1,4 @@
-#Tue Nov 08 22:55:24 PST 2016
+#Wed Nov 09 20:13:10 PST 2016
 base.0=C\:\\Users\\DED8IRD\\Documents\\School\\PIP lab\\Pip app\\Pip-Stress-Framing\\PipApp\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_17f47f93096deec8769e01bdb5033d5133648c69
 renamed.1=classes.dex
 renamed.0=classes2.dex
