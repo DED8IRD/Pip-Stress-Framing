@@ -72,8 +72,8 @@ public class PipAppMainActivity
 		dynamicColorBlock = (TextView)findViewById(R.id.dynamic_color_block);
 		db = new dbHelper(this);
 		participant = "participant"; // filler participant field
-		
-		// Kick off a PIP discovery process when the Discover button is clicked.
+
+        // Kick off a PIP discovery process when the Discover button is clicked.
 		buttonDiscover.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 pipDiscovered = false;
@@ -291,7 +291,6 @@ public class PipAppMainActivity
 				case PipAnalyzerListener.STRESS_TREND_RELAXING:
 					textViewStatus.setText("Trend: Relaxing");
 					dynamicColorBlock.setBackgroundColor(Color.BLUE);
-//                    Log.d(participant +','+ String.valueOf(currentRawValue) + ",Relaxing,", String.valueOf(accumulated));
 					db.addPipSession(new PipSession(participant, currentRawValue, "Relaxing", accumulated));
                     break;
 				case PipAnalyzerListener.STRESS_TREND_STRESSING:

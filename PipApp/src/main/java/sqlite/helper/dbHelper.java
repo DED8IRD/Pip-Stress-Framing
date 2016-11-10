@@ -46,8 +46,8 @@ public class dbHelper extends SQLiteOpenHelper {
     // Table Create Statements
     private static final String CREATE_TABLE_PIP_SESSIONS = "CREATE TABLE "
             + TABLE_PIP_SESSIONS + "(" + KEY_ID + " INTEGER PRIMARY KEY AUTOINCREMENT,"
-            + KEY_PARTICIPANT + " CHAR(40)," + KEY_GSR_VAL + " FLOAT," + KEY_CURRENT_TREND
-            + " CHAR(20)," + KEY_ACCUM_TREND + " FLOAT" + ")";
+            + KEY_PARTICIPANT + " CHAR(40)," + KEY_GSR_VAL + " DOUBLE," + KEY_CURRENT_TREND
+            + " CHAR(20)," + KEY_ACCUM_TREND + " DOUBLE" + ")";
 
     public dbHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
@@ -128,6 +128,9 @@ public class dbHelper extends SQLiteOpenHelper {
                 PipSession session = new PipSession();
                 session.setId(c.getInt((c.getColumnIndex(KEY_ID))));
                 session.setParticipant((c.getString(c.getColumnIndex(KEY_PARTICIPANT))));
+                session.setGSR((c.getDouble(c.getColumnIndex(KEY_GSR_VAL))));
+                session.setCurrentTrend((c.getString(c.getColumnIndex(KEY_CURRENT_TREND))));
+                session.setAccumTrend((c.getDouble(c.getColumnIndex(KEY_ACCUM_TREND))));
 
                 // adding to session list
                 sessions.add(session);

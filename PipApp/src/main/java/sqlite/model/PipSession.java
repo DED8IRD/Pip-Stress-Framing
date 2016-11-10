@@ -43,7 +43,7 @@ public class PipSession {
         this.participant = participant;
     }
 
-    public void setGSR(int GSR) {
+    public void setGSR(double GSR) {
         this.GSR_raw_val = GSR;
     }
 
