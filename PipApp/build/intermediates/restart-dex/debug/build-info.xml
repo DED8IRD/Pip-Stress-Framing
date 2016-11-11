@@ -5,29 +5,29 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="909005255353453"
+    timestamp="918090622393719"
     token="-5965018401416009021"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="241" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="74" />
+        duration="0" />
     <task
         name="verifier"
-        duration="16" />
+        duration="0" />
 
     <artifact
         location="C:\Users\DED8IRD\Documents\School\PIP lab\Pip app\Pip-Stress-Framing\PipApp\build\outputs\apk\PipApp-debug.apk"
         type="MAIN" />
 
     <build
-        timestamp="909005255353453"
+        timestamp="918090622393719"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\DED8IRD\Documents\School\PIP lab\Pip app\Pip-Stress-Framing\PipApp\build\outputs\apk\PipApp-debug.apk"

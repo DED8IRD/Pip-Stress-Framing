@@ -1,8 +1,14 @@
-/*
+package com.galvanic.pipsdk.PipApp;
+
+/**
+ * PipAppMainActivity.java
+ *
+ * This is the MainActivity of the PipApp, which includes handling discovering, connecting, and
+ * disconnecting Pips, displaying current trends of galvanic skin response, and exporting session
+ * information to csv files.
+ *
  * PipApp modified from Galvanic's PIPSDKExample
  */
-
-package com.galvanic.pipsdk.PipApp;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -12,15 +18,12 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
-import android.content.Context;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.util.ArrayList;
 import java.util.List;
 import java.io.File;
-import java.io.FileOutputStream;
-import android.util.Log;
 // PIP-specific imports
 import com.galvanic.pipsdk.PIP.PipInfo;
 import com.galvanic.pipsdk.PIP.PipManager;
@@ -32,6 +35,7 @@ import com.galvanic.pipsdk.PIP.PipManagerListener;
 import com.galvanic.pipsdk.PIP.PipAnalyzerListener;
 import sqlite.helper.dbHelper;
 import sqlite.model.PipSession;
+import util.timestamp.Timestamp;
 // Visual imports
 import android.graphics.Color;
 
@@ -64,12 +68,12 @@ public class PipAppMainActivity
     dbHelper db = null;
     File saveDir = new File(Environment.getExternalStorageDirectory().getAbsolutePath()
                             + File.separator);
+    File output = null;
 
     // Write to csv from db table.
-    public void writeToCSV(File saveDir, String filename, dbHelper db) {
-        File output = new File(saveDir, filename + ".csv");
+    public void writeToCSV(File saveDir, File output, dbHelper db) {
         try {
-            BufferedWriter outputToFile = new BufferedWriter(new FileWriter(output));
+            BufferedWriter outputToFile = new BufferedWriter(new FileWriter(output, true));
             outputToFile.write("id,participant,raw_GSR,current_trend,accum_trend\n");
             List<PipSession> allSessions = db.getAllSessions();
             for (PipSession session: allSessions) {
@@ -113,10 +117,10 @@ public class PipAppMainActivity
 
             }
         });
-				
+
 		buttonConnect = (Button)findViewById(R.id.Connect);
 		buttonConnect.setEnabled(true);
-		
+
 		// Initiate a connection to a discovered PIP when the Connect
 		// button is clicked.
 		buttonConnect.setOnClickListener(new View.OnClickListener() {
@@ -127,10 +131,10 @@ public class PipAppMainActivity
 				connectPip();
 			}
 		});
-		
+
 		buttonDisconnect = (Button) findViewById(R.id.Disconnect);
 		buttonDisconnect.setEnabled(false);
-		
+
 		// Disconnect from a connected PIP when the Disconnect button is clicked.
 		buttonDisconnect.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View v) {
@@ -141,7 +145,7 @@ public class PipAppMainActivity
 				pipManager.getPip(pipManager.getDiscoveryAtIndex(0).pipID).disconnect();
 			}
 		});
-		
+
 		pipManager = PipManager.getInstance();
 		pipManager.initialize(this, this);
 	}
@@ -279,7 +283,8 @@ public class PipAppMainActivity
 		buttonDisconnect.setEnabled(false);
 
         // Write to csv on disconnect
-        writeToCSV(saveDir, participant, db);
+        output = new File(saveDir, participant +'-'+ Timestamp.timestamp() + ".csv");
+        writeToCSV(saveDir, output, db);
 	}
 
 

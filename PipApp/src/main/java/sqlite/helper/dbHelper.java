@@ -1,5 +1,11 @@
 package sqlite.helper;
 
+/**
+ * dbHelper.java
+ * Helper class encapsulating SQLite operations for the Pip session table.
+ * Created by DED8IRD on 11/7/2016.
+ */
+
 import sqlite.model.PipSession;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -13,12 +19,6 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
-
-/*
- * dbHelper.java
- * Helper class encapsulating SQLite operations.
- * Created by DED8IRD on 11/7/2016.
- */
 
 public class dbHelper extends SQLiteOpenHelper {
 

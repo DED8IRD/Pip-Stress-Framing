@@ -2,7 +2,7 @@ package sqlite.model;
 
 /**
  * PipSession.java
- * Model for PipSession table
+ * Model for PipSession table.
  * Created by DED8IRD on 11/7/2016.
  */
 
