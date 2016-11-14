@@ -13,4 +13,13 @@
     <string name="dummy_content">DUMMY\nCONTENT</string>
     <string name="Disconnect">btnDisconnectFullScreen</string>
     <string name="btnDisconnectFullScreen">Disconnect</string>
+    <string name="title_activity_login">"Login "</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="ParticipantMessage">Please Enter Participant Info</string>
+    <string name="btnNext">Next</string>
+    <string name="txtParticipant">Participant id</string>
+    <string name="btnDiscover">Discover</string>
+    <string name="btnConnect">Connect</string>
+    <string name="tvStatus" />
 </resources>
