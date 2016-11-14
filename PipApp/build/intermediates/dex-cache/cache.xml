@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/alonpek/AndroidStudioProjects/PipApp/app/libs/pipsdk.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="320dce64be7e8a7dee8be2c1d92cc8fdf28a5082">
+        <dex dex="/Users/alonpek/AndroidStudioProjects/PipApp/app/build/intermediates/pre-dexed/debug/pipsdk-556a1aba3ff24f8554a9ea288a2529c389e7eb97.jar" />
+    </item>
+
+</items>

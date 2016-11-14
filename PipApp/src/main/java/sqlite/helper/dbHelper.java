@@ -1,18 +1,19 @@
 package sqlite.helper;
 
-import sqlite.model.PipSession;
-import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
-import java.util.Locale;
-
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
+
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+import java.util.Locale;
+
+import sqlite.model.PipSession;
 
 /*
  * dbHelper.java
@@ -80,6 +81,7 @@ public class dbHelper extends SQLiteOpenHelper {
         ContentValues values = new ContentValues();
         values.put(KEY_PARTICIPANT, session.getParticipant());
         values.put(KEY_GSR_VAL, session.getGSR());
+        
         values.put(KEY_CURRENT_TREND, session.getCurrentTrend());
         values.put(KEY_ACCUM_TREND, session.getAccumTrend());
 

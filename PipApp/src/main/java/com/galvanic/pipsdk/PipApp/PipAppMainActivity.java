@@ -5,36 +5,41 @@
 package com.galvanic.pipsdk.PipApp;
 
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
+import android.graphics.Color;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-import android.app.AlertDialog;
-import android.content.DialogInterface;
+
+import com.galvanic.pipsdk.PIP.Pip;
+import com.galvanic.pipsdk.PIP.PipAnalyzerListener;
+import com.galvanic.pipsdk.PIP.PipAnalyzerOutput;
+import com.galvanic.pipsdk.PIP.PipConnectionListener;
+import com.galvanic.pipsdk.PIP.PipInfo;
+import com.galvanic.pipsdk.PIP.PipManager;
+import com.galvanic.pipsdk.PIP.PipManagerListener;
+import com.galvanic.pipsdk.PIP.PipStandardAnalyzer;
 
 import java.util.ArrayList;
 import java.util.List;
-import android.util.Log;
 
-import com.galvanic.pipsdk.PIP.PipInfo;
-// PIP-specific imports
-import com.galvanic.pipsdk.PIP.PipManager;
-import com.galvanic.pipsdk.PIP.Pip;
-import com.galvanic.pipsdk.PIP.PipAnalyzerOutput;
-import com.galvanic.pipsdk.PIP.PipStandardAnalyzer;
-import com.galvanic.pipsdk.PIP.PipConnectionListener;
-import com.galvanic.pipsdk.PIP.PipManagerListener;
-import com.galvanic.pipsdk.PIP.PipAnalyzerListener;
 import sqlite.helper.dbHelper;
 import sqlite.model.PipSession;
+
+// PIP-specific imports
 // Visual imports
-import android.graphics.Color;
 
 /* The application's user interface must inherit and implement the
  * PipManagerListener, PipConnectionListener and PipAnalyzerListener 
  * interfaces in order to handle events relating to PIP discovery, 
  * connection status and streaming/data analysis respectively.
  */
+
+
+
 public class PipAppMainActivity
 	extends Activity 
 	implements PipManagerListener, PipConnectionListener, PipAnalyzerListener   
@@ -53,16 +58,26 @@ public class PipAppMainActivity
     TextView tvPrevious = null;
 	TextView dynamicColorBlock = null;
 
+
     double currentRawValue;
     double accumulated;
-    String participant = null;
+    public String participant = null;
     dbHelper db = null;
 
+
+	//Pass participant ID from login screen
+	public void importParticipant(View v) {
+		Bundle bundle = getIntent().getExtras();
+		participant = bundle.getString("send_participant");
+	}
+
 	@Override
-	public void onCreate(Bundle savedInstanceState) 
+	public void onCreate(Bundle savedInstanceState)
 	{
+
 		super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pipsdkexample);
+
 
 		textViewStatus = (TextView)findViewById(R.id.Status);
 		buttonDiscover = (Button)findViewById(R.id.Discover);
@@ -71,7 +86,12 @@ public class PipAppMainActivity
 		buttonDiscover.setEnabled(true);
 		dynamicColorBlock = (TextView)findViewById(R.id.dynamic_color_block);
 		db = new dbHelper(this);
-		participant = "participant"; // filler participant field
+
+
+		//Pass participant ID from login screen
+		Bundle bundle = getIntent().getExtras();
+		participant = bundle.getString("send_participant");
+
 		
 		// Kick off a PIP discovery process when the Discover button is clicked.
 		buttonDiscover.setOnClickListener(new View.OnClickListener() {
@@ -82,6 +102,7 @@ public class PipAppMainActivity
                 buttonDisconnect.setEnabled(false);
                 pipManager.resetManager();
                 textViewStatus.setText("Discovering...");
+				//textViewStatus.setText(participant);
                 pipManager.discoverPips();
 
             }
@@ -118,7 +139,8 @@ public class PipAppMainActivity
 		pipManager = PipManager.getInstance();
 		pipManager.initialize(this, this);
 	}
-	
+
+
 	public void connectPip()
 	{
 		// We stop discovery after the first PIP has been found, so
@@ -291,7 +313,7 @@ public class PipAppMainActivity
 				case PipAnalyzerListener.STRESS_TREND_RELAXING:
 					textViewStatus.setText("Trend: Relaxing");
 					dynamicColorBlock.setBackgroundColor(Color.BLUE);
-//                    Log.d(participant +','+ String.valueOf(currentRawValue) + ",Relaxing,", String.valueOf(accumulated));
+                    Log.d(participant +','+ String.valueOf(currentRawValue) + ",Relaxing,", String.valueOf(accumulated));
 					db.addPipSession(new PipSession(participant, currentRawValue, "Relaxing", accumulated));
                     break;
 				case PipAnalyzerListener.STRESS_TREND_STRESSING:

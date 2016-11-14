@@ -1,6 +1,14 @@
 [
     {
-        "merged": "C:\\Users\\DED8IRD\\Documents\\School\\PIP lab\\Pip app\\Pip-Stress-Framing\\PipApp\\build\\intermediates\\res\\merged\\debug\\menu\\pipsdkexample.xml",
-        "source": "C:\\Users\\DED8IRD\\Documents\\School\\PIP lab\\Pip app\\Pip-Stress-Framing\\PipApp\\src\\main\\res\\menu\\pipsdkexample.xml"
+        "merged": "/Users/alonpek/AndroidStudioProjects/Pip-Stress-Framing/PipApp/build/intermediates/res/merged/debug/menu/activitylogin.xml",
+        "source": "/Users/alonpek/AndroidStudioProjects/Pip-Stress-Framing/PipApp/src/main/res/menu/activitylogin.xml"
+    },
+    {
+        "merged": "/Users/alonpek/AndroidStudioProjects/Pip-Stress-Framing/C:\\Users\\DED8IRD\\Documents\\School\\PIP lab\\Pip app\\Pip-Stress-Framing\\PipApp\\build\\intermediates\\res\\merged\\debug\\menu\\pipsdkexample.xml",
+        "source": "/Users/alonpek/AndroidStudioProjects/Pip-Stress-Framing/C:\\Users\\DED8IRD\\Documents\\School\\PIP lab\\Pip app\\Pip-Stress-Framing\\PipApp\\src\\main\\res\\menu\\pipsdkexample.xml"
+    },
+    {
+        "merged": "/Users/alonpek/AndroidStudioProjects/Pip-Stress-Framing/PipApp/build/intermediates/res/merged/debug/menu/pipsdkexample.xml",
+        "source": "/Users/alonpek/AndroidStudioProjects/Pip-Stress-Framing/PipApp/src/main/res/menu/pipsdkexample.xml"
     }
 ]

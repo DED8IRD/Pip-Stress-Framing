@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="pipsdk.pipsdk">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/pipsdk/pipsdk.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
