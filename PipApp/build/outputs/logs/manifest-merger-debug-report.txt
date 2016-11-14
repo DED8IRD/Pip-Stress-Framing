@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\DED8IRD\Documents\School\PIP lab\Pip app\Pip-Stress-Framing\PipApp\src\main\AndroidManifest.xml:2:1-35:12
+ADDED from C:\Users\DED8IRD\Documents\School\PIP lab\Pip app\Pip-Stress-Framing\PipApp\src\main\AndroidManifest.xml:2:1-47:12
 	package
 		ADDED from C:\Users\DED8IRD\Documents\School\PIP lab\Pip app\Pip-Stress-Framing\PipApp\src\main\AndroidManifest.xml:3:5-41
 		INJECTED from C:\Users\DED8IRD\Documents\School\PIP lab\Pip app\Pip-Stress-Framing\PipApp\src\main\AndroidManifest.xml
@@ -51,7 +51,7 @@ ADDED from C:\Users\DED8IRD\Documents\School\PIP lab\Pip app\Pip-Stress-Framing\
 	android:name
 		ADDED from C:\Users\DED8IRD\Documents\School\PIP lab\Pip app\Pip-Stress-Framing\PipApp\src\main\AndroidManifest.xml:18:30-85
 application
-ADDED from C:\Users\DED8IRD\Documents\School\PIP lab\Pip app\Pip-Stress-Framing\PipApp\src\main\AndroidManifest.xml:20:5-33:19
+ADDED from C:\Users\DED8IRD\Documents\School\PIP lab\Pip app\Pip-Stress-Framing\PipApp\src\main\AndroidManifest.xml:20:5-45:19
 MERGED from [com.android.support:support-v4:23.0.0] C:\Users\DED8IRD\Documents\School\PIP lab\Pip app\Pip-Stress-Framing\PipApp\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
 	android:label
 		ADDED from C:\Users\DED8IRD\Documents\School\PIP lab\Pip app\Pip-Stress-Framing\PipApp\src\main\AndroidManifest.xml:23:9-41
@@ -60,18 +60,34 @@ MERGED from [com.android.support:support-v4:23.0.0] C:\Users\DED8IRD\Documents\S
 	android:icon
 		ADDED from C:\Users\DED8IRD\Documents\School\PIP lab\Pip app\Pip-Stress-Framing\PipApp\src\main\AndroidManifest.xml:22:9-45
 activity#com.galvanic.pipsdk.PipApp.PipAppMainActivity
-ADDED from C:\Users\DED8IRD\Documents\School\PIP lab\Pip app\Pip-Stress-Framing\PipApp\src\main\AndroidManifest.xml:24:9-32:20
+ADDED from C:\Users\DED8IRD\Documents\School\PIP lab\Pip app\Pip-Stress-Framing\PipApp\src\main\AndroidManifest.xml:24:9-33:20
 	android:label
 		ADDED from C:\Users\DED8IRD\Documents\School\PIP lab\Pip app\Pip-Stress-Framing\PipApp\src\main\AndroidManifest.xml:26:13-45
 	android:name
-		ADDED from C:\Users\DED8IRD\Documents\School\PIP lab\Pip app\Pip-Stress-Framing\PipApp\src\main\AndroidManifest.xml:25:13-73
+		ADDED from C:\Users\DED8IRD\Documents\School\PIP lab\Pip app\Pip-Stress-Framing\PipApp\src\main\AndroidManifest.xml:25:13-47
+intent-filter#android.intent.category.DEFAULT+second_activity
+ADDED from C:\Users\DED8IRD\Documents\School\PIP lab\Pip app\Pip-Stress-Framing\PipApp\src\main\AndroidManifest.xml:28:13-31:29
+action#second_activity
+ADDED from C:\Users\DED8IRD\Documents\School\PIP lab\Pip app\Pip-Stress-Framing\PipApp\src\main\AndroidManifest.xml:29:17-58
+	android:name
+		ADDED from C:\Users\DED8IRD\Documents\School\PIP lab\Pip app\Pip-Stress-Framing\PipApp\src\main\AndroidManifest.xml:29:25-55
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\DED8IRD\Documents\School\PIP lab\Pip app\Pip-Stress-Framing\PipApp\src\main\AndroidManifest.xml:30:17-76
+	android:name
+		ADDED from C:\Users\DED8IRD\Documents\School\PIP lab\Pip app\Pip-Stress-Framing\PipApp\src\main\AndroidManifest.xml:30:27-73
+activity#com.galvanic.pipsdk.PipApp.LoginActivity
+ADDED from C:\Users\DED8IRD\Documents\School\PIP lab\Pip app\Pip-Stress-Framing\PipApp\src\main\AndroidManifest.xml:35:9-44:20
+	android:label
+		ADDED from C:\Users\DED8IRD\Documents\School\PIP lab\Pip app\Pip-Stress-Framing\PipApp\src\main\AndroidManifest.xml:37:13-57
+	android:name
+		ADDED from C:\Users\DED8IRD\Documents\School\PIP lab\Pip app\Pip-Stress-Framing\PipApp\src\main\AndroidManifest.xml:36:13-42
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\DED8IRD\Documents\School\PIP lab\Pip app\Pip-Stress-Framing\PipApp\src\main\AndroidManifest.xml:27:13-31:29
+ADDED from C:\Users\DED8IRD\Documents\School\PIP lab\Pip app\Pip-Stress-Framing\PipApp\src\main\AndroidManifest.xml:39:13-42:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\DED8IRD\Documents\School\PIP lab\Pip app\Pip-Stress-Framing\PipApp\src\main\AndroidManifest.xml:28:17-69
+ADDED from C:\Users\DED8IRD\Documents\School\PIP lab\Pip app\Pip-Stress-Framing\PipApp\src\main\AndroidManifest.xml:40:17-69
 	android:name
-		ADDED from C:\Users\DED8IRD\Documents\School\PIP lab\Pip app\Pip-Stress-Framing\PipApp\src\main\AndroidManifest.xml:28:25-66
+		ADDED from C:\Users\DED8IRD\Documents\School\PIP lab\Pip app\Pip-Stress-Framing\PipApp\src\main\AndroidManifest.xml:40:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\DED8IRD\Documents\School\PIP lab\Pip app\Pip-Stress-Framing\PipApp\src\main\AndroidManifest.xml:30:17-77
+ADDED from C:\Users\DED8IRD\Documents\School\PIP lab\Pip app\Pip-Stress-Framing\PipApp\src\main\AndroidManifest.xml:41:17-77
 	android:name
-		ADDED from C:\Users\DED8IRD\Documents\School\PIP lab\Pip app\Pip-Stress-Framing\PipApp\src\main\AndroidManifest.xml:30:27-74
+		ADDED from C:\Users\DED8IRD\Documents\School\PIP lab\Pip app\Pip-Stress-Framing\PipApp\src\main\AndroidManifest.xml:41:27-74

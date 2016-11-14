@@ -2,58 +2,40 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="C:\Users\DED8IRD\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.0\support-annotations-23.0.0.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/alonpek/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.0/support-annotations-23.0.0.jar"
+        jumboMode="false"
         optimize="true"
         revision="22.0.1"
         sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
-        <dex dex="C:\Users\DED8IRD\Documents\School\PIP lab\Pip app\Pip-Stress-Framing\PipApp\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.0.0_3837e15a5af6f44416690973ecc68898beeca5c2\classes.dex" />
+        <dex dex="/Users/alonpek/AndroidStudioProjects/Pip-Stress-Framing/PipApp/build/intermediates/pre-dexed/debug/support-annotations-23.0.0_50ca57a3c7509018a52e7d2829fa29e35a05d983.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\DED8IRD\Documents\School\PIP lab\Pip app\Pip-Stress-Framing\PipApp\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="5e6b4dd2932ab98654aeab92477a6d96cf5f7b78">
-        <dex dex="C:\Users\DED8IRD\Documents\School\PIP lab\Pip app\Pip-Stress-Framing\PipApp\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_17f47f93096deec8769e01bdb5033d5133648c69\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\DED8IRD\Documents\School\PIP lab\Pip app\Pip-Stress-Framing\PipApp\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="a2936798e4e35ee4221b9e80236a68a168c9c64a">
-        <dex dex="C:\Users\DED8IRD\Documents\School\PIP lab\Pip app\Pip-Stress-Framing\PipApp\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_7a23d37362017f1e426f9a6eb5030205ad6343f4\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\DED8IRD\Documents\School\PIP lab\Pip app\Pip-Stress-Framing\PipApp\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\libs\internal_impl-23.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
-        <dex dex="C:\Users\DED8IRD\Documents\School\PIP lab\Pip app\Pip-Stress-Framing\PipApp\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.0.0_bd07b131056a284994f226c7b1e1f803febf6b71\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\DED8IRD\Documents\School\PIP lab\Pip app\Pip-Stress-Framing\PipApp\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
-        <dex dex="C:\Users\DED8IRD\Documents\School\PIP lab\Pip app\Pip-Stress-Framing\PipApp\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.0.0_13be4a45ebe05a1eebc0a6776db96a5c4e6e05bf\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\DED8IRD\Documents\School\PIP lab\Pip app\Pip-Stress-Framing\PipApp\libs\pipsdk.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/alonpek/AndroidStudioProjects/Pip-Stress-Framing/PipApp/libs/pipsdk.jar"
+        jumboMode="false"
         optimize="true"
         revision="22.0.1"
         sha1="320dce64be7e8a7dee8be2c1d92cc8fdf28a5082">
-        <dex dex="C:\Users\DED8IRD\Documents\School\PIP lab\Pip app\Pip-Stress-Framing\PipApp\build\intermediates\transforms\dex\debug\folders\1000\2\pipsdk_018b29d210f566a6e9bb80bdd9e795bae48b2143\classes.dex" />
+        <dex dex="/Users/alonpek/AndroidStudioProjects/Pip-Stress-Framing/PipApp/build/intermediates/pre-dexed/debug/pipsdk_47137ed0a8e09b2e869cc80fdc1ff732b312f69e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alonpek/AndroidStudioProjects/Pip-Stress-Framing/PipApp/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/libs/internal_impl-23.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="/Users/alonpek/AndroidStudioProjects/Pip-Stress-Framing/PipApp/build/intermediates/pre-dexed/debug/internal_impl-23.0.0_8022a27b48594da7db7ba70bd5e6943049d29509.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alonpek/AndroidStudioProjects/Pip-Stress-Framing/PipApp/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="/Users/alonpek/AndroidStudioProjects/Pip-Stress-Framing/PipApp/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.0_edaaa9a4c278448f67e4042e8a0ddfc51f62d4f1.jar" />
     </item>
 
 </items>
