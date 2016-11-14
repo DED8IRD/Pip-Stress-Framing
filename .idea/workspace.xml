@@ -10,7 +10,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5cf8289d-a5a5-45ad-a412-e65975351355" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PipApp/src/main/java/util/timestamp/timestamp.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
@@ -50,6 +49,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/classes/debug/com/galvanic/pipsdk/PipApp/util/SystemUiHiderHoneycomb.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/classes/debug/com/galvanic/pipsdk/PipApp/util/SystemUiHiderHoneycomb.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/classes/debug/sqlite/helper/dbHelper.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/classes/debug/sqlite/helper/dbHelper.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/classes/debug/sqlite/model/PipSession.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/classes/debug/sqlite/model/PipSession.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/classes/debug/util/timestamp/Timestamp.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/classes/debug/util/timestamp/Timestamp.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/annotations.zip" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/annotations.zip" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/classes.jar" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/classes.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/libs/internal_impl-23.0.0.jar" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/libs/internal_impl-23.0.0.jar" />
@@ -80,6 +80,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/incremental-verifier/debug/com/galvanic/pipsdk/PipApp/util/SystemUiHiderHoneycomb.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/incremental-verifier/debug/com/galvanic/pipsdk/PipApp/util/SystemUiHiderHoneycomb.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/incremental-verifier/debug/sqlite/helper/dbHelper.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/incremental-verifier/debug/sqlite/helper/dbHelper.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/incremental-verifier/debug/sqlite/model/PipSession.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/incremental-verifier/debug/sqlite/model/PipSession.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/incremental-verifier/debug/util/timestamp/Timestamp.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/incremental-verifier/debug/util/timestamp/Timestamp.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/incremental/compileDebugAidl/dependency.store" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/incremental/compileDebugAidl/dependency.store" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/incremental/compileDebugAndroidTestAidl/dependency.store" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/incremental/compileDebugAndroidTestAidl/dependency.store" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/incremental/packageDebug/zip-cache/8BM169iD14tZb3DKtweOq_flbo4=" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/incremental/packageDebug/zip-cache/8BM169iD14tZb3DKtweOq_flbo4=" />
@@ -132,6 +133,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/galvanic/pipsdk/PipApp/util/SystemUiHiderHoneycomb.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/galvanic/pipsdk/PipApp/util/SystemUiHiderHoneycomb.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/sqlite/helper/dbHelper.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/sqlite/helper/dbHelper.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/sqlite/model/PipSession.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/sqlite/model/PipSession.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/util/timestamp/Timestamp.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/util/timestamp/Timestamp.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/android/tools/fd/dummy/slice_0.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/android/tools/fd/dummy/slice_0.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/sqlite/helper/dbHelper.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/sqlite/helper/dbHelper.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/com/android/tools/fd/dummy/slice_1.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/com/android/tools/fd/dummy/slice_1.class" />
@@ -160,6 +162,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/galvanic/pipsdk/PipApp/R$styleable.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/galvanic/pipsdk/PipApp/R$styleable.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/galvanic/pipsdk/PipApp/R.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/galvanic/pipsdk/PipApp/R.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/android/tools/fd/dummy/slice_8.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/android/tools/fd/dummy/slice_8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/util/timestamp/Timestamp.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/util/timestamp/Timestamp.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/com/android/tools/fd/dummy/slice_9.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/com/android/tools/fd/dummy/slice_9.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/com/galvanic/pipsdk/PipApp/util/SystemUiHider$1.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/com/galvanic/pipsdk/PipApp/util/SystemUiHider$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/com/galvanic/pipsdk/PipApp/util/SystemUiHider$OnVisibilityChangeListener.class" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/com/galvanic/pipsdk/PipApp/util/SystemUiHider$OnVisibilityChangeListener.class" />
@@ -241,6 +244,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/restart-dex/debug/build-info.xml" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/restart-dex/debug/build-info.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/symbols/debug/R.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/buildId.txt" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/buildId.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/buildId.txt" afterPath="$PROJECT_DIR$/PipApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/buildId.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/PipApp/build/outputs/logs/manifest-merger-debug-report.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/lint.xml" afterPath="$PROJECT_DIR$/PipApp/lint.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/PipApp/src/main/AndroidManifest.xml" />
@@ -250,6 +254,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/src/main/java/com/galvanic/pipsdk/PipApp/util/SystemUiHiderHoneycomb.java" afterPath="$PROJECT_DIR$/PipApp/src/main/java/com/galvanic/pipsdk/PipApp/util/SystemUiHiderHoneycomb.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/src/main/java/sqlite/helper/dbHelper.java" afterPath="$PROJECT_DIR$/PipApp/src/main/java/sqlite/helper/dbHelper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/src/main/java/sqlite/model/PipSession.java" afterPath="$PROJECT_DIR$/PipApp/src/main/java/sqlite/model/PipSession.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/src/main/java/util/timestamp/timestamp.java" afterPath="$PROJECT_DIR$/PipApp/src/main/java/util/timestamp/timestamp.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/src/main/res/layout/activity_pipsdkexample.xml" afterPath="$PROJECT_DIR$/PipApp/src/main/res/layout/activity_pipsdkexample.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/src/main/res/menu/pipsdkexample.xml" afterPath="$PROJECT_DIR$/PipApp/src/main/res/menu/pipsdkexample.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/src/main/res/values-sw600dp/dimens.xml" afterPath="$PROJECT_DIR$/PipApp/src/main/res/values-sw600dp/dimens.xml" />
@@ -299,18 +304,10 @@
       <file leaf-file-name="PipAppMainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PipApp/src/main/java/com/galvanic/pipsdk/PipApp/PipAppMainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
+            <state relative-caret-position="6750">
               <caret line="285" column="85" selection-start-line="285" selection-start-column="85" selection-end-line="285" selection-end-column="85" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3945#4374#0" expanded="true" />
-                <element signature="e#4373#4374#0" expanded="true" />
-                <element signature="e#4590#4798#0" expanded="true" />
-                <element signature="e#4797#4798#0" expanded="true" />
-                <element signature="e#5016#5388#0" expanded="true" />
-                <element signature="e#5387#5388#0" expanded="true" />
-                <element signature="e#8578#8736#0" expanded="true" />
-                <element signature="e#8735#8736#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -319,7 +316,7 @@
       <file leaf-file-name="Timestamp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PipApp/src/main/java/util/timestamp/Timestamp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-100">
+            <state relative-caret-position="200">
               <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
               <folding />
             </state>
@@ -362,13 +359,12 @@
       <file leaf-file-name="dbHelper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PipApp/src/main/java/sqlite/helper/dbHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
+            <state relative-caret-position="175">
               <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="20" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1698#1699#0" expanded="true" />
                 <element signature="e#1767#1768#0" expanded="true" />
-                <element signature="e#3583#3595#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -389,14 +385,14 @@
       </file>
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PipApp/src/main/AndroidManifest.xml">
-          <provider editor-type-id="android-manifest">
-            <state />
-          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
+            <state relative-caret-position="350">
               <caret line="14" column="62" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
               <folding />
             </state>
+          </provider>
+          <provider editor-type-id="android-manifest">
+            <state />
           </provider>
         </entry>
       </file>
@@ -2054,9 +2050,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane" />
-      <pane id="Scratches" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -2110,6 +2103,9 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2432,38 +2428,38 @@
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4289246" sideWeight="0.48054054" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4289246" sideWeight="0.5194595" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5194595" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32385662" sideWeight="0.44162163" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4289246" sideWeight="0.4827027" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4289246" sideWeight="0.51729727" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32880098" sideWeight="0.49567568" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11513513" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32880098" sideWeight="0.49351352" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11513513" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5194595" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32880098" sideWeight="0.49351352" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -2516,64 +2512,64 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PipApp/src/main/AndroidManifest.xml">
+    <entry file="file://$PROJECT_DIR$/PipApp/src/main/java/com/galvanic/pipsdk/PipApp/PipAppMainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PipApp/src/main/java/com/galvanic/pipsdk/PipApp/PipAppMainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3945#4374#0" expanded="true" />
-            <element signature="e#4373#4374#0" expanded="true" />
-            <element signature="e#4590#4798#0" expanded="true" />
-            <element signature="e#4797#4798#0" expanded="true" />
-            <element signature="e#5016#5388#0" expanded="true" />
-            <element signature="e#5387#5388#0" expanded="true" />
-            <element signature="e#8578#8736#0" expanded="true" />
-            <element signature="e#8735#8736#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PipApp/src/main/java/sqlite/helper/PipSessionInfo.java">
+    <entry file="file://$PROJECT_DIR$/PipApp/src/main/java/util/timestamp/Timestamp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PipApp/src/main/java/sqlite/model/PipSession.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+          <folding>
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#883#884#0" expanded="true" />
+            <element signature="e#911#912#0" expanded="true" />
+            <element signature="e#965#966#0" expanded="true" />
+            <element signature="e#1011#1012#0" expanded="true" />
+            <element signature="e#1049#1050#0" expanded="true" />
+            <element signature="e#1087#1088#0" expanded="true" />
+            <element signature="e#1143#1144#0" expanded="true" />
+            <element signature="e#1193#1194#0" expanded="true" />
+            <element signature="e#1245#1246#0" expanded="true" />
+            <element signature="e#1291#1292#0" expanded="true" />
+            <element signature="e#1333#1334#0" expanded="true" />
+            <element signature="e#1363#1364#0" expanded="true" />
+            <element signature="e#1401#1402#0" expanded="true" />
+            <element signature="e#1440#1441#0" expanded="true" />
+            <element signature="e#1470#1471#0" expanded="true" />
+            <element signature="e#1509#1510#0" expanded="true" />
+            <element signature="e#1548#1549#0" expanded="true" />
+            <element signature="e#1589#1590#0" expanded="true" />
+            <element signature="e#1626#1627#0" expanded="true" />
+            <element signature="e#1665#1666#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PipApp/src/main/java/sqlite/helper/dbHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PipApp/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="14" column="62" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PipApp/src/main/java/util/timestamp/timestamp/java.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="32" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PipApp/src/main/java/util/timestamp/timestamp/timestamp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding />
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="20" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1698#1699#0" expanded="true" />
+            <element signature="e#1767#1768#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2588,15 +2584,65 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/PipApp/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="62" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PipApp/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PipApp/src/main/java/com/galvanic/pipsdk/PipApp/PipAppMainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PipApp/src/main/java/sqlite/helper/PipSessionInfo.java" />
+    <entry file="file://$PROJECT_DIR$/PipApp/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="62" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PipApp/src/main/java/util/timestamp/timestamp/java.java" />
+    <entry file="file://$PROJECT_DIR$/PipApp/src/main/java/util/timestamp/timestamp/timestamp.java" />
+    <entry file="file://$PROJECT_DIR$/PipApp/src/main/res/layout/activity_pipsdkexample.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PipApp/src/main/java/sqlite/helper/dbHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
+        <state relative-caret-position="175">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="20" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1698#1699#0" expanded="true" />
             <element signature="e#1767#1768#0" expanded="true" />
-            <element signature="e#3583#3595#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2634,7 +2680,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PipApp/src/main/java/util/timestamp/Timestamp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-100">
+        <state relative-caret-position="200">
           <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
           <folding />
         </state>
@@ -2642,18 +2688,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PipApp/src/main/java/com/galvanic/pipsdk/PipApp/PipAppMainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
+        <state relative-caret-position="6750">
           <caret line="285" column="85" selection-start-line="285" selection-start-column="85" selection-end-line="285" selection-end-column="85" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3945#4374#0" expanded="true" />
-            <element signature="e#4373#4374#0" expanded="true" />
-            <element signature="e#4590#4798#0" expanded="true" />
-            <element signature="e#4797#4798#0" expanded="true" />
-            <element signature="e#5016#5388#0" expanded="true" />
-            <element signature="e#5387#5388#0" expanded="true" />
-            <element signature="e#8578#8736#0" expanded="true" />
-            <element signature="e#8735#8736#0" expanded="true" />
           </folding>
         </state>
       </provider>
