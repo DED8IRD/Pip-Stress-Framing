@@ -32,8 +32,6 @@ import com.galvanic.pipsdk.PIP.Pip;
 import com.galvanic.pipsdk.PIP.PipAnalyzerListener;
 import com.galvanic.pipsdk.PIP.PipAnalyzerOutput;
 import com.galvanic.pipsdk.PIP.PipConnectionListener;
-import com.galvanic.pipsdk.PIP.PipInfo;
-import com.galvanic.pipsdk.PIP.PipManager;
 import com.galvanic.pipsdk.PIP.PipManagerListener;
 import com.galvanic.pipsdk.PIP.PipStandardAnalyzer;
 import sqlite.helper.dbHelper;
@@ -76,17 +74,20 @@ public class PipAppMainActivity
     File output = null;
 
     // Write to csv from db table.
-    public void writeToCSV(File saveDir, File output, dbHelper db) {
+    public void writeToCSV(File saveDir, File output, dbHelper db, String participant) {
         try {
             BufferedWriter outputToFile = new BufferedWriter(new FileWriter(output, true));
-            outputToFile.write("id,participant,raw_GSR,current_trend,accum_trend\n");
+            outputToFile.write("id,timestamp,participant,raw_GSR,current_trend,accum_trend\n");
+            outputToFile.write("," + Timestamp.now() +','+ participant + ",,,\n");
             List<PipSession> allSessions = db.getAllSessions();
             for (PipSession session: allSessions) {
-                outputToFile.write(String.valueOf(session.getId()) +','+
-                        session.getParticipant() +','+
-                        String.valueOf(session.getGSR()) +','+
-                        session.getCurrentTrend() +','+
-                        String.valueOf(session.getAccumTrend()) + "\n");
+                if (session.getParticipant().equals(participant)) {
+                    outputToFile.write(String.valueOf(session.getId()) + ",," +
+                            session.getParticipant() + ',' +
+                            String.valueOf(session.getGSR()) + ',' +
+                            session.getCurrentTrend() + ',' +
+                            String.valueOf(session.getAccumTrend()) + "\n");
+                }
             }
             outputToFile.close();
         } catch (Exception e) {
@@ -111,13 +112,11 @@ public class PipAppMainActivity
 
 		textViewStatus = (TextView)findViewById(R.id.Status);
 		buttonDiscover = (Button)findViewById(R.id.Discover);
+        buttonDiscover.setEnabled(true);
         tvRaw = (TextView) findViewById(R.id.tvRaw);
         tvPrevious = (TextView) findViewById(R.id.tvPrevious);
-		buttonDiscover.setEnabled(true);
 		dynamicColorBlock = (TextView)findViewById(R.id.dynamic_color_block);
 		db = new dbHelper(this);
-
-//		participant = "participant"; // filler participant field
 
 
 		//Pass participant ID from login screen
@@ -134,14 +133,13 @@ public class PipAppMainActivity
                 buttonDisconnect.setEnabled(false);
                 pipManager.resetManager();
                 textViewStatus.setText("Discovering...");
-				//textViewStatus.setText(participant);
                 pipManager.discoverPips();
 
             }
         });
 
 		buttonConnect = (Button)findViewById(R.id.Connect);
-		buttonConnect.setEnabled(true);
+		buttonConnect.setEnabled(false);
 
 		// Initiate a connection to a discovered PIP when the Connect
 		// button is clicked.
@@ -307,7 +305,7 @@ public class PipAppMainActivity
 
         // Write to csv on disconnect
         output = new File(saveDir, participant +'-'+ Timestamp.timestamp() + ".csv");
-        writeToCSV(saveDir, output, db);
+        writeToCSV(saveDir, output, db, participant);
 	}
 
 

@@ -1,0 +1,33 @@
+#Internal package file, do not edit.
+#Wed Nov 16 14:23:30 PST 2016
+2.base=C\:\\Users\\DED8IRD\\Documents\\School\\PIP lab\\Pip app\\Pip-Stress-Framing\\PipApp\\build\\intermediates\\res\\resources-debug.ap_
+5.file=C\:\\Users\\DED8IRD\\Documents\\School\\PIP lab\\Pip app\\Pip-Stress-Framing\\PipApp\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout-v17\\activity_pipsdkexample.xml
+5.set=ANDROID_RESOURCE
+3.base=C\:\\Users\\DED8IRD\\Documents\\School\\PIP lab\\Pip app\\Pip-Stress-Framing\\PipApp\\build\\intermediates\\res\\resources-debug.ap_
+6.file=C\:\\Users\\DED8IRD\\Documents\\School\\PIP lab\\Pip app\\Pip-Stress-Framing\\PipApp\\build\\intermediates\\res\\resources-debug.ap_\\res\\menu\\pipsdkexample.xml
+2.set=ANDROID_RESOURCE
+4.base=C\:\\Users\\DED8IRD\\Documents\\School\\PIP lab\\Pip app\\Pip-Stress-Framing\\PipApp\\build\\intermediates\\res\\resources-debug.ap_
+7.file=C\:\\Users\\DED8IRD\\Documents\\School\\PIP lab\\Pip app\\Pip-Stress-Framing\\PipApp\\build\\intermediates\\res\\resources-debug.ap_\\res\\menu-v11\\activitylogin.xml
+7.set=ANDROID_RESOURCE
+count=10
+0.file=C\:\\Users\\DED8IRD\\Documents\\School\\PIP lab\\Pip app\\Pip-Stress-Framing\\PipApp\\build\\intermediates\\res\\resources-debug.ap_\\AndroidManifest.xml
+5.base=C\:\\Users\\DED8IRD\\Documents\\School\\PIP lab\\Pip app\\Pip-Stress-Framing\\PipApp\\build\\intermediates\\res\\resources-debug.ap_
+8.file=C\:\\Users\\DED8IRD\\Documents\\School\\PIP lab\\Pip app\\Pip-Stress-Framing\\PipApp\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\activity_pipsdkexample.xml
+4.set=ANDROID_RESOURCE
+6.base=C\:\\Users\\DED8IRD\\Documents\\School\\PIP lab\\Pip app\\Pip-Stress-Framing\\PipApp\\build\\intermediates\\res\\resources-debug.ap_
+1.file=C\:\\Users\\DED8IRD\\Documents\\School\\PIP lab\\Pip app\\Pip-Stress-Framing\\PipApp\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\activity_login.xml
+9.set=ANDROID_RESOURCE
+9.file=C\:\\Users\\DED8IRD\\Documents\\School\\PIP lab\\Pip app\\Pip-Stress-Framing\\PipApp\\build\\intermediates\\res\\resources-debug.ap_\\res\\menu\\activitylogin.xml
+1.set=ANDROID_RESOURCE
+7.base=C\:\\Users\\DED8IRD\\Documents\\School\\PIP lab\\Pip app\\Pip-Stress-Framing\\PipApp\\build\\intermediates\\res\\resources-debug.ap_
+2.file=C\:\\Users\\DED8IRD\\Documents\\School\\PIP lab\\Pip app\\Pip-Stress-Framing\\PipApp\\build\\intermediates\\res\\resources-debug.ap_\\res\\menu-v11\\pipsdkexample.xml
+6.set=ANDROID_RESOURCE
+0.base=C\:\\Users\\DED8IRD\\Documents\\School\\PIP lab\\Pip app\\Pip-Stress-Framing\\PipApp\\build\\intermediates\\res\\resources-debug.ap_
+8.base=C\:\\Users\\DED8IRD\\Documents\\School\\PIP lab\\Pip app\\Pip-Stress-Framing\\PipApp\\build\\intermediates\\res\\resources-debug.ap_
+3.file=C\:\\Users\\DED8IRD\\Documents\\School\\PIP lab\\Pip app\\Pip-Stress-Framing\\PipApp\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\ic_launcher.png
+3.set=ANDROID_RESOURCE
+1.base=C\:\\Users\\DED8IRD\\Documents\\School\\PIP lab\\Pip app\\Pip-Stress-Framing\\PipApp\\build\\intermediates\\res\\resources-debug.ap_
+9.base=C\:\\Users\\DED8IRD\\Documents\\School\\PIP lab\\Pip app\\Pip-Stress-Framing\\PipApp\\build\\intermediates\\res\\resources-debug.ap_
+4.file=C\:\\Users\\DED8IRD\\Documents\\School\\PIP lab\\Pip app\\Pip-Stress-Framing\\PipApp\\build\\intermediates\\res\\resources-debug.ap_\\resources.arsc
+8.set=ANDROID_RESOURCE
+0.set=ANDROID_RESOURCE
