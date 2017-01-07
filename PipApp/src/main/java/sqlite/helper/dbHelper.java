@@ -186,7 +186,16 @@ public class dbHelper extends SQLiteOpenHelper {
     }
 
     /*
-     * Close database
+     * Clear session
+     */
+    public void clearSession() {
+        SQLiteDatabase db = this.getWritableDatabase();
+        db.execSQL("DROP TABLE IF EXISTS " + TABLE_PIP_SESSIONS);
+        onCreate(db);
+    }
+
+    /*
+     * Close and delete database
      */
     public void closeDB() {
         SQLiteDatabase db = this.getReadableDatabase();

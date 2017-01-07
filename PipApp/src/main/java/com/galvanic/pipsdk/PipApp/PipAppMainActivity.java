@@ -306,6 +306,7 @@ public class PipAppMainActivity
         // Write to csv on disconnect
         output = new File(saveDir, participant +'-'+ Timestamp.timestamp() + ".csv");
         writeToCSV(saveDir, output, db, participant);
+        db.clearSession();
 	}
 
 
