@@ -18,12 +18,19 @@ public class Timestamp {
         return readableTime;
     }
 
-    // Returns readable Timestamp suitable for filenames (i.e. no spaces or special chars).
+    // Returns readable Timestamp for SQLite insertions.
     public static String timestamp() {
         Time now = new Time();
         now.setToNow();
-        String readableTime = now.format("%Y_%m_%d_%H_%M_%S");
+        String readableTime = now.format("%Y-%m-%d %H:%M:%S");
         return readableTime;
     }
 
+    // Returns readable Timestamp suitable for filenames (i.e. no spaces or special chars).
+    public static String filesafe_timestamp() {
+        Time now = new Time();
+        now.setToNow();
+        String readableTime = now.format("%Y-%m-%d_%H-%M-%S");
+        return readableTime;
+    }
 }

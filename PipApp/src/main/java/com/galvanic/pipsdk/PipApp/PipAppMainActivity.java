@@ -81,12 +81,12 @@ public class PipAppMainActivity
         try {
             BufferedWriter outputToFile = new BufferedWriter(new FileWriter(output, true));
             outputToFile.write("id,timestamp,participant,raw_GSR,current_trend,accum_trend\n");
-            outputToFile.write("," + Timestamp.now() +','+ participant + ",,,\n");
             List<PipSession> allSessions = db.getAllSessions();
             for (PipSession session: allSessions) {
                 if (session.getParticipant().equals(participant)) {
                     outputToFile.write(String.valueOf(session.getId()) + ",," +
                             session.getParticipant() + ',' +
+							session.getTimestamp() + ',' +
                             String.valueOf(session.getGSR()) + ',' +
                             session.getCurrentTrend() + ',' +
                             String.valueOf(session.getAccumTrend()) + "\n");
@@ -307,7 +307,7 @@ public class PipAppMainActivity
 		buttonDisconnect.setEnabled(false);
 
         // Write to csv on disconnect
-		output = new File(saveDir, participant +'-'+ Timestamp.timestamp() + ".csv");
+		output = new File(saveDir, participant +'-'+ Timestamp.filesafe_timestamp() + ".csv");
 
 		writeToCSV(saveDir, output, db, participant);
 
@@ -356,21 +356,21 @@ public class PipAppMainActivity
 					textViewStatus.setText("Trend: Relaxing");
 					dynamicColorBlock.setBackgroundColor(Color.BLUE);
 
-					db.addPipSession(new PipSession(participant, currentRawValue, "Relaxing", accumulated));
+					db.addPipSession(new PipSession(participant, Timestamp.timestamp(), currentRawValue, "Relaxing", accumulated));
                     break;
 				case PipAnalyzerListener.STRESS_TREND_STRESSING:
 					textViewStatus.setText("Trend: Stressing");
 					dynamicColorBlock.setBackgroundColor(Color.YELLOW);
-                    db.addPipSession(new PipSession(participant, currentRawValue, "Stressing", accumulated));
+                    db.addPipSession(new PipSession(participant, Timestamp.timestamp(), currentRawValue, "Stressing", accumulated));
                     break;
 				case PipAnalyzerListener.STRESS_TREND_CONSTANT:
 					textViewStatus.setText("Trend: Constant");
 					dynamicColorBlock.setBackgroundColor(Color.GRAY);
-                    db.addPipSession(new PipSession(participant, currentRawValue, "Constant", accumulated));
+                    db.addPipSession(new PipSession(participant, Timestamp.timestamp(), currentRawValue, "Constant", accumulated));
                     break;
 				case PipAnalyzerListener.STRESS_TREND_NONE:
 					textViewStatus.setText("Trend: None");
-                    db.addPipSession(new PipSession(participant, currentRawValue, "None", accumulated));
+                    db.addPipSession(new PipSession(participant, Timestamp.timestamp(), currentRawValue, "None", accumulated));
                     break;
 			}
 		}

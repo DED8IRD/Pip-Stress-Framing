@@ -41,15 +41,20 @@ public class dbHelper extends SQLiteOpenHelper {
 
     // Pip Session Info Table - attributes
     private static final String KEY_PARTICIPANT = "participant";
+    private static final String KEY_TIMESTAMP = "timestamp";
     private static final String KEY_GSR_VAL = "raw_GSR";
     private static final String KEY_CURRENT_TREND = "current_trend";
     private static final String KEY_ACCUM_TREND = "accum_trend";
 
     // Table Create Statements
     private static final String CREATE_TABLE_PIP_SESSIONS = "CREATE TABLE "
-            + TABLE_PIP_SESSIONS + "(" + KEY_ID + " INTEGER PRIMARY KEY AUTOINCREMENT,"
-            + KEY_PARTICIPANT + " CHAR(40)," + KEY_GSR_VAL + " DOUBLE," + KEY_CURRENT_TREND
-            + " CHAR(20)," + KEY_ACCUM_TREND + " DOUBLE" + ")";
+            + TABLE_PIP_SESSIONS + "("
+            + KEY_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, "
+            + KEY_PARTICIPANT + " CHAR(40), "
+            + KEY_TIMESTAMP + " CHAR(60), "
+            + KEY_GSR_VAL + " DOUBLE, "
+            + KEY_CURRENT_TREND + " CHAR(20), "
+            + KEY_ACCUM_TREND + " DOUBLE" + ")";
 
     public dbHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
@@ -81,8 +86,8 @@ public class dbHelper extends SQLiteOpenHelper {
 
         ContentValues values = new ContentValues();
         values.put(KEY_PARTICIPANT, session.getParticipant());
+        values.put(KEY_TIMESTAMP, session.getTimestamp());
         values.put(KEY_GSR_VAL, session.getGSR());
-        
         values.put(KEY_CURRENT_TREND, session.getCurrentTrend());
         values.put(KEY_ACCUM_TREND, session.getAccumTrend());
 
@@ -131,6 +136,7 @@ public class dbHelper extends SQLiteOpenHelper {
                 PipSession session = new PipSession();
                 session.setId(c.getInt((c.getColumnIndex(KEY_ID))));
                 session.setParticipant((c.getString(c.getColumnIndex(KEY_PARTICIPANT))));
+                session.setTimestamp((c.getString(c.getColumnIndex(KEY_TIMESTAMP))));
                 session.setGSR((c.getDouble(c.getColumnIndex(KEY_GSR_VAL))));
                 session.setCurrentTrend((c.getString(c.getColumnIndex(KEY_CURRENT_TREND))));
                 session.setAccumTrend((c.getDouble(c.getColumnIndex(KEY_ACCUM_TREND))));
@@ -167,6 +173,7 @@ public class dbHelper extends SQLiteOpenHelper {
         ContentValues values = new ContentValues();
         values.put(KEY_ID, session.getId());
         values.put(KEY_PARTICIPANT, session.getParticipant());
+        values.put(KEY_TIMESTAMP, session.getTimestamp());
         values.put(KEY_GSR_VAL, session.getGSR());
         values.put(KEY_CURRENT_TREND, session.getCurrentTrend());
         values.put(KEY_ACCUM_TREND, session.getAccumTrend());
@@ -194,22 +201,4 @@ public class dbHelper extends SQLiteOpenHelper {
         onCreate(db);
     }
 
-    /*
-     * Close and delete database
-     */
-    public void closeDB() {
-        SQLiteDatabase db = this.getReadableDatabase();
-        if (db != null && db.isOpen())
-            db.close();
-    }
-
-    /*
-     * get datetime
-     */
-    private String getDateTime() {
-        SimpleDateFormat dateFormat = new SimpleDateFormat(
-                "yyyy-MM-dd HH:mm:ss", Locale.getDefault());
-        Date date = new Date();
-        return dateFormat.format(date);
-    }
 }
