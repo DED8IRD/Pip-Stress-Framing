@@ -84,7 +84,7 @@ public class PipAppMainActivity
             List<PipSession> allSessions = db.getAllSessions();
             for (PipSession session: allSessions) {
                 if (session.getParticipant().equals(participant)) {
-                    outputToFile.write(String.valueOf(session.getId()) + ",," +
+                    outputToFile.write(String.valueOf(session.getId()) + "," +
                             session.getParticipant() + ',' +
 							session.getTimestamp() + ',' +
                             String.valueOf(session.getGSR()) + ',' +

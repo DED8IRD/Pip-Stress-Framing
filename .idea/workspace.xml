@@ -265,7 +265,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/PipApp/src/main/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PipApp/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/PipApp/src/main/res/values/styles.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradlew" afterPath="$PROJECT_DIR$/gradlew" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradlew.bat" afterPath="$PROJECT_DIR$/gradlew.bat" />
@@ -298,8 +297,8 @@
       <file leaf-file-name="PipAppMainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PipApp/src/main/java/com/galvanic/pipsdk/PipApp/PipAppMainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="573">
-              <caret line="372" column="86" selection-start-line="372" selection-start-column="86" selection-end-line="372" selection-end-column="86" />
+            <state relative-caret-position="550">
+              <caret line="95" column="31" selection-start-line="95" selection-start-column="31" selection-end-line="95" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -2523,8 +2522,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PipApp/src/main/java/com/galvanic/pipsdk/PipApp/PipAppMainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="573">
-          <caret line="372" column="86" selection-start-line="372" selection-start-column="86" selection-end-line="372" selection-end-column="86" />
+        <state relative-caret-position="550">
+          <caret line="95" column="31" selection-start-line="95" selection-start-column="31" selection-end-line="95" selection-end-column="31" />
           <folding />
         </state>
       </provider>
