@@ -85,9 +85,9 @@ public class PipAppMainActivity
             for (PipSession session: allSessions) {
                 if (session.getParticipant().equals(participant)) {
                     outputToFile.write(String.valueOf(session.getId()) + "," +
-                            session.getParticipant() + ',' +
 							session.getTimestamp() + ',' +
-                            String.valueOf(session.getGSR()) + ',' +
+							session.getParticipant() + ',' +
+							String.valueOf(session.getGSR()) + ',' +
                             session.getCurrentTrend() + ',' +
                             String.valueOf(session.getAccumTrend()) + "\n");
                 }
