@@ -13,7 +13,9 @@ package com.galvanic.pipsdk.PipApp;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.graphics.Color;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
 import android.util.Log;
@@ -40,7 +42,7 @@ import util.timestamp.Timestamp;
 
 
 /* The application's user interface must inherit and implement the
- * PipManagerListener, PipConnectionListener and PipAnalyzerListener 
+ * PipManagerListener, PipConnectionListener and PipAnalyzerListener
  * interfaces in order to handle events relating to PIP discovery, 
  * connection status and streaming/data analysis respectively.
  */
@@ -72,6 +74,7 @@ public class PipAppMainActivity
     File saveDir = new File(Environment.getExternalStorageDirectory().getAbsolutePath()
                             + File.separator);
     File output = null;
+	String email = "eunikawu@gmail.com";
 
     // Write to csv from db table.
     public void writeToCSV(File saveDir, File output, dbHelper db, String participant) {
@@ -304,9 +307,20 @@ public class PipAppMainActivity
 		buttonDisconnect.setEnabled(false);
 
         // Write to csv on disconnect
-        output = new File(saveDir, participant +'-'+ Timestamp.timestamp() + ".csv");
-        writeToCSV(saveDir, output, db, participant);
-        db.clearSession();
+		output = new File(saveDir, participant +'-'+ Timestamp.timestamp() + ".csv");
+
+		writeToCSV(saveDir, output, db, participant);
+
+		// Email csv
+		Uri attachment = Uri.fromFile(output);
+		Intent send = new Intent(Intent.ACTION_SEND);
+		send.putExtra(Intent.EXTRA_EMAIL, new String[] {email});
+		send.putExtra(Intent.EXTRA_SUBJECT, "PIP LAB EXPORT " + output.getName());
+		send.putExtra(Intent.EXTRA_TEXT, output.getName());
+		send.putExtra(Intent.EXTRA_STREAM, attachment);
+		send.setType("text/html");
+		startActivity(send);
+		db.clearSession();
 	}
 
 
