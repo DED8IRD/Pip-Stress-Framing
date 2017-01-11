@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #Tue Jan 10 15:25:35 PST 2017
 base.0=C\:\\Users\\DED8IRD\\Documents\\School\\PIP lab\\Pip app\\Pip-Stress-Framing\\PipApp\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_17f47f93096deec8769e01bdb5033d5133648c69
 renamed.1=classes.dex
@@ -5,3 +6,9 @@ renamed.0=classes2.dex
 file.1=C\:\\Users\\DED8IRD\\Documents\\School\\PIP lab\\Pip app\\Pip-Stress-Framing\\PipApp\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_7a23d37362017f1e426f9a6eb5030205ad6343f4\\classes.dex
 base.1=C\:\\Users\\DED8IRD\\Documents\\School\\PIP lab\\Pip app\\Pip-Stress-Framing\\PipApp\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_7a23d37362017f1e426f9a6eb5030205ad6343f4
 file.0=C\:\\Users\\DED8IRD\\Documents\\School\\PIP lab\\Pip app\\Pip-Stress-Framing\\PipApp\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_17f47f93096deec8769e01bdb5033d5133648c69\\classes.dex
+=======
+#Wed Dec 07 16:41:38 PST 2016
+base.0=/Users/alonpek/AndroidStudioProjects/Pip-Stress-Framing/PipApp/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/Users/alonpek/AndroidStudioProjects/Pip-Stress-Framing/PipApp/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
+>>>>>>> Vibration

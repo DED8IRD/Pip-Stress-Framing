@@ -12,22 +12,22 @@ package com.galvanic.pipsdk.PipApp;
 
 import android.app.Activity;
 import android.app.AlertDialog;
+import android.app.NotificationManager;
+import android.app.PendingIntent;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
-import android.util.Log;
+import android.support.v4.app.NotificationCompat;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-import java.io.BufferedWriter;
-import java.io.FileWriter;
-import java.util.ArrayList;
-import java.util.List;
-import java.io.File;
+
 // PIP-specific imports
+
+
 import com.galvanic.pipsdk.PIP.PipInfo;
 import com.galvanic.pipsdk.PIP.PipManager;
 import com.galvanic.pipsdk.PIP.Pip;
@@ -36,9 +36,20 @@ import com.galvanic.pipsdk.PIP.PipAnalyzerOutput;
 import com.galvanic.pipsdk.PIP.PipConnectionListener;
 import com.galvanic.pipsdk.PIP.PipManagerListener;
 import com.galvanic.pipsdk.PIP.PipStandardAnalyzer;
+
+
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.util.ArrayList;
+import java.util.List;
+
+
 import sqlite.helper.dbHelper;
 import sqlite.model.PipSession;
 import util.timestamp.Timestamp;
+
+// PIP-specific imports
 
 
 /* The application's user interface must inherit and implement the
@@ -76,6 +87,8 @@ public class PipAppMainActivity
     File output = null;
 	String email = "eunikawu@gmail.com";
 
+
+
     // Write to csv from db table.
     public void writeToCSV(File saveDir, File output, dbHelper db, String participant) {
         try {
@@ -105,7 +118,12 @@ public class PipAppMainActivity
 		participant = bundle.getString("send_participant");
 	}
 
-	@Override
+    //Notification for Ditto vibrating band
+    NotificationCompat.Builder notification;
+    private static final int notifID = 1234;
+
+
+    @Override
 	public void onCreate(Bundle savedInstanceState)
 	{
 
@@ -335,7 +353,36 @@ public class PipAppMainActivity
 	@Override
 	public void onAnalyzerOutputEvent(int pipID, int status)
 	{
-		if( pipManager.getPip(pipID).isActive())
+
+        long[] pattern = {0, 250};
+
+        notification = new NotificationCompat.Builder(this);
+        notification.setAutoCancel(true);
+
+        //Build the notification
+        notification.setWhen(System.currentTimeMillis());
+        notification.setContentTitle("PIPapp");
+        notification.setContentText("Stress detected");
+        notification.setSmallIcon(R.drawable.ic_launcher);
+
+
+        notification.setVibrate(pattern);
+
+
+
+
+        Intent notifIntent = new Intent(this, LoginActivity.class);
+        PendingIntent pendingIntent = PendingIntent.getActivity(this, 0, notifIntent, PendingIntent.FLAG_UPDATE_CURRENT);
+        notification.setContentIntent(pendingIntent);
+
+        NotificationManager nm = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
+
+        //Issues notification
+        //nm.notify(notifID, notification.build());
+
+
+
+        if( pipManager.getPip(pipID).isActive())
 		{
 			// Retrieve the analyzer's current output
 			ArrayList<PipAnalyzerOutput> op =  pipManager.getPip(pipID).getAnalyzerOutput();
@@ -361,7 +408,10 @@ public class PipAppMainActivity
 				case PipAnalyzerListener.STRESS_TREND_STRESSING:
 					textViewStatus.setText("Trend: Stressing");
 					dynamicColorBlock.setBackgroundColor(Color.YELLOW);
+
                     db.addPipSession(new PipSession(participant, Timestamp.timestamp(), currentRawValue, "Stressing", accumulated));
+                    nm.notify(notifID, notification.build());
+
                     break;
 				case PipAnalyzerListener.STRESS_TREND_CONSTANT:
 					textViewStatus.setText("Trend: Constant");
