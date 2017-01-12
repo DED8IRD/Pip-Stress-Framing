@@ -24,10 +24,13 @@ import android.support.v4.app.NotificationCompat;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.util.ArrayList;
+import java.util.List;
 
 // PIP-specific imports
-
-
 import com.galvanic.pipsdk.PIP.PipInfo;
 import com.galvanic.pipsdk.PIP.PipManager;
 import com.galvanic.pipsdk.PIP.Pip;
@@ -36,20 +39,9 @@ import com.galvanic.pipsdk.PIP.PipAnalyzerOutput;
 import com.galvanic.pipsdk.PIP.PipConnectionListener;
 import com.galvanic.pipsdk.PIP.PipManagerListener;
 import com.galvanic.pipsdk.PIP.PipStandardAnalyzer;
-
-
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileWriter;
-import java.util.ArrayList;
-import java.util.List;
-
-
 import sqlite.helper.dbHelper;
 import sqlite.model.PipSession;
 import util.timestamp.Timestamp;
-
-// PIP-specific imports
 
 
 /* The application's user interface must inherit and implement the
@@ -85,7 +77,7 @@ public class PipAppMainActivity
     File saveDir = new File(Environment.getExternalStorageDirectory().getAbsolutePath()
                             + File.separator);
     File output = null;
-	String email = "eunikawu@gmail.com";
+	String email = "vhollis@ucsc.edu";
 
 
 
